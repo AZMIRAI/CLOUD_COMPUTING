@@ -92,14 +92,23 @@ phpinfo();
 
 27. 하이디sql 로 주소복붙, 아이디 centos, 비번 centos 포트번호 3306, 로그인
 
+28. vi /etc/httpd/conf/httpd.conf
 
+29. :set number
 
+30. 151열에 있는 AllowOverride None을 
+	AllowOverride All로 바꾸기 (pageup, pagedown키)
 
+31. :wq
 
+// systemctl restart httpd.service
 
-vi /etc/httpd/conf/httpd.conf
-151 AllowOverride All
-systemctl restart httpd.service
+32. cd /var/www/html/
 
-wget http://mcs.ymsubiz.com/xe.zip
+33. wget http://mcs.ymsubiz.com/xe.zip
 
+34. unzip xe.zip
+
+35. chmod 707 xe
+
+36. 웹 브라우저에서 [웹주소/xe/]예(http://3.36.49.193/xe/)
