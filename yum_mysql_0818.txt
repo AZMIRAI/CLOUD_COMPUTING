@@ -147,32 +147,140 @@ phpinfo();
 
 
 
+
+
 우분투
 EC2 설치
-   보안 - 22, 80, 3306등 설정
+보안 - 22, 80, 3306등 설정
+	
+1. sudo su -
+       
+2. apt-get update
+	
+-LAMP 설치 및 APM 동작 확인
+3. apt-get -y install lamp-server^ php-gd php-xml 
 
-       # apt-get update
-     - LAMP 설치 및 APM 동작 확인
-      apt-get -y install lamp-server^ php-gd php-xml 
-      systemctl restart apache2, systemctl enable apache2, systemctl status apache2
-      systemctl restart mysql, systemctl enable mysql, systemctl status mysql 
-       브라우저 : 홈 및 phpinfo 확인
-     - mysql 접근 및 확인
-       # mysql -u root
-       mysql> grant all on *.* to ubuntu@'%' identified by 'ubuntu';
-       mysql> flush privileges;
-       mysql> exit
-       # vi /etc/mysql/mysql.conf.d/mysqld.cnf
-      - bind-address            = 127.0.0.1 >> 주석처리 후 저장
-       # service mysql restart
-       # ufw allow 80/tcp
-       # ufw allow 3306/tcp
-                Clinet로 외부 접근 확인
+4. systemctl restart apache2
+
+5. systemctl enable apache2 
+
+6. systemctl status apache2
+
+7. systemctl restart mysql 
+
+8. systemctl enable mysql
+
+9. systemctl status mysql 
+       
+10. 브라우저 : 홈 및 phpinfo 확인
+	
+11. vi /var/www/html/phpinfo.php
+	
+12. <?php
+phpinfo();
+?>
+
+13. 저장 :wq
+	
+14. cd /var/www/html/
+	
+15. ll
+
+16. 웹확인(웹 주소/phpinfo.php)
+- mysql 접근 및 확인
+
+17. mysql_secure_installation
+
+18. 
+> 엔터 
+> y(루트패스워드)
+> 1234 
+> 1234 
+> y 
+> n 
+> y 
+> y
+19. mysql -u root -p
+
+20. mysql> create user 'ubuntu'@'%' identified by 'ubuntu';
+
+21. mysql> grant all privileges on 'ubuntu'@'%';
+
+22. MariaDB [(none)]> flush privileges;
+
+23. exit
+
+24. mysql -u ubuntu -p
+
+25. ubuntu
+      
+26. create database xeDB;
+
+27. exit
+
+하이디sql로 sql:centos로 로그인 해보기
+하이디sql 로 주소복붙, 아이디 centos, 비번 centos 포트번호 3306, 로그인
+
+28. # vi /etc/mysql/mysql.conf.d/mysqld.cnf
+
+29.   - bind-address            = 127.0.0.1 >> 주석처리 후 저장
+      
+30. service mysql restart
+
+31. ufw allow 80/tcp
+
+32. ufw allow 3306/tcp
+
+33. Clinet로 외부 접근 확인
        
    [ XE 설치 ]
-       # apt-get -y install php php-gd php-xml 
-        # systemctl restart apache2
-        # wget http://mcs.ymsubiz.com/xe.zip
+
+34. apt-get -y install php php-gd php-xml 
+
+35. systemctl restart apache2
+        
+36. cd /var/www/html/
+
+37. wget http://mcs.ymsubiz.com/xe.zip
+
+38. unzip xe.zip
+
+39. chmod 707 xe
+
+40. 웹 브라우저에서 [웹주소/xe/]예(http://3.36.49.193/xe/)
+
+41. 설치언어 선택
+> 한국어
+> 다음
+
+42. 사용권동의
+> 체크
+> 다음
+
+43. 설치조건확인
+> 설치를 진행합니다
+
+44. FTP 정보 입력
+> mysqli
+> 다음
+
+45. DB아이디 ubuntu
+> DB비밀번호 ubuntu
+> DB이름 xeDB
+> 나머지그대로
+> 다음
+
+46. 환경설정
+> GMT + 9:00 한국서버 시간
+> 다음 
+
+47. 관리자 정보 입력
+> 이메일 주소 1901322@g.yju.ac.kr (아무거나해도됨)
+> 비번 : Ab123456@
+> 닉네임 : azmirai
+> 아이디 : azmirai
+      
+
        
 
 
