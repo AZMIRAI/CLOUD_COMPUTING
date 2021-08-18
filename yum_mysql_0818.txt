@@ -3,16 +3,38 @@ sudo su -
 yum -y update
 yum -y install httpd php mariadb-server mariadb-client php-gd php-xml php-mysqlnd xml-common
 
-systemctl enable mariadb.service
+//systemctl enable mariadb.service
 systemctl start mariadb.service
 
-systemctl enable httpd.service
+//systemctl enable httpd.service
 systemctl start httpd.service
+
+80번포트 열어줘야됨
+
+EC2
+보안
+보안 그룹
+sg-071e5c12adf8f2246 - launch-wizard-3
+인바운드 규칙 편집
 
 
 vi /var/www/html/phpinfo.php
 
-웹확인
+i
+
+<?php
+phpinfo();
+?>
+
+저장 :wq
+
+cd /var/www/html/
+
+ll
+
+웹확인(웹 주소/phpinfo.php)
+
+
 
 vi /etc/my.cnf.d/server.cnf
 
