@@ -112,3 +112,70 @@ phpinfo();
 35. chmod 707 xe
 
 36. 웹 브라우저에서 [웹주소/xe/]예(http://3.36.49.193/xe/)
+
+37. 설치언어 선택
+> 한국어
+> 다음
+
+38. 사용권동의
+> 체크
+> 다음
+
+39. 설치조건확인
+> 설치를 진행합니다
+
+40. FTP 정보 입력
+> mysqli
+> 다음
+
+41. DB아이디 centos
+> DB비밀번호 centos
+> DB이름 xeDB
+> 나머지그대로
+> 다음
+
+42. 환경설정
+> GMT + 9:00 한국서버 시간
+> 다음 
+
+43. 관리자 정보 입력
+> 이메일 주소 1901322@g.yju.ac.kr (아무거나해도됨)
+> 비번 : Ab123456@
+> 닉네임 : azmirai
+> 아이디 : azmirai
+
+
+
+
+우분투
+EC2 설치
+   보안 - 22, 80, 3306등 설정
+
+       # apt-get update
+     - LAMP 설치 및 APM 동작 확인
+      apt-get -y install lamp-server^ php-gd php-xml 
+      systemctl restart apache2, systemctl enable apache2, systemctl status apache2
+      systemctl restart mysql, systemctl enable mysql, systemctl status mysql 
+       브라우저 : 홈 및 phpinfo 확인
+     - mysql 접근 및 확인
+       # mysql -u root
+       mysql> grant all on *.* to ubuntu@'%' identified by 'ubuntu';
+       mysql> flush privileges;
+       mysql> exit
+       # vi /etc/mysql/mysql.conf.d/mysqld.cnf
+      - bind-address            = 127.0.0.1 >> 주석처리 후 저장
+       # service mysql restart
+       # ufw allow 80/tcp
+       # ufw allow 3306/tcp
+                Clinet로 외부 접근 확인
+       
+   [ XE 설치 ]
+       # apt-get -y install php php-gd php-xml 
+        # systemctl restart apache2
+        # wget http://mcs.ymsubiz.com/xe.zip
+       
+
+
+
+
+
