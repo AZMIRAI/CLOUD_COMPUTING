@@ -1,52 +1,101 @@
-sudo su -
+1. sudo su -
 
-yum -y update
-yum -y install httpd php mariadb-server mariadb-client php-gd php-xml php-mysqlnd xml-common
+2. yum -y update
 
-//systemctl enable mariadb.service
-systemctl start mariadb.service
+3. yum -y install httpd php mariadb-server mariadb-client php-gd php-xml php-mysqlnd xml-common
 
-//systemctl enable httpd.service
-systemctl start httpd.service
+// systemctl enable mariadb.service
+4. systemctl start mariadb.service
 
-80번포트 열어줘야됨
+// systemctl enable httpd.service
+5. systemctl start httpd.service
 
-EC2
-보안
-보안 그룹
-sg-071e5c12adf8f2246 - launch-wizard-3
-인바운드 규칙 편집
+6. 80번포트 열어줘야됨 아래 여는방법
 
+> EC2 
+> 인스턴스 
+> 인스턴스 ID 
+> 보안 
+> 보안 그룹(각자 다름 sg-071e5c12adf8f2246 - launch-wizard-3) 
+> Edit inbound rules
+> 규칙 추가 
+> 유형 HTTP
+  포트번호 80
+  소스 유형(0.0.0.0/0) 
+> 규칙 저장 
 
-vi /var/www/html/phpinfo.php
+웹주소 웹브라우저에 쳐봄
 
-i
+7. vi /var/www/html/phpinfo.php
 
-<?php
+8. i
+
+9. <?php
 phpinfo();
 ?>
 
-저장 :wq
+10. 저장 :wq
 
-cd /var/www/html/
+11. cd /var/www/html/
 
-ll
+12. ll
 
-웹확인(웹 주소/phpinfo.php)
+13. 웹확인(웹 주소/phpinfo.php)
+
+// 14. vi /etc/my.cnf.d/server.cnf
+
+15. mysql_secure_installation
+
+16. 
+> 엔터 
+> y(루트패스워드)
+> 1234 
+> 1234 
+> y 
+> n 
+> y 
+> y
+
+17. mysql -u root -p
+
+18. 1234
+
+19. MariaDB [(none)]> grant all on *.* to centos@'%' identified by 'centos';
+
+20. MariaDB [(none)]> flush privileges;
+
+21. exit
+
+22. mysql -u centos -p
+
+23. centos
+
+24. create database xeDB;
+
+25. exit
+
+하이디sql로 sql:centos로 로그인 해보기
+
+26. 3306번포트 열어줘야됨 아래 여는방법
+
+> EC2 
+> 인스턴스 
+> 인스턴스 ID 
+> 보안 
+> 보안 그룹(각자 다름 sg-071e5c12adf8f2246 - launch-wizard-3) 
+> Edit inbound rules
+> 규칙 추가 
+> 유형 MYSQL/Aurora
+  포트번호 3306
+  소스 유형(0.0.0.0/0) 
+> 규칙 저장 
+
+27. 하이디sql 로 주소복붙, 아이디 centos, 비번 centos 포트번호 3306, 로그인
 
 
 
-vi /etc/my.cnf.d/server.cnf
 
-mysql_secure_installation
 
-MariaDB [(none)]> grant all on *.* to centos@'%' identified by 'centos';
-MariaDB [(none)]> flush privileges;
-
-mysql -u centos -pcentos
-패스워드 확인
-
-create database xeDB;
 
 vi /etc/httpd/conf/httpd.conf
 151 AllowOverride All
