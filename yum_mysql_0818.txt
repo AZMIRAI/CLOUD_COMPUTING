@@ -1,0 +1,4 @@
+1. sudo su -
+
+2. yum y- update
+3. yum y- install httpd php mariadb-server mariadb-client php-gd php-xml php-mysqlnd xml-common
