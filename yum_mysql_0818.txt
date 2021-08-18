@@ -1,4 +1,34 @@
-1. sudo su -
+sudo su -
 
-2. yum y- update
-3. yum y- install httpd php mariadb-server mariadb-client php-gd php-xml php-mysqlnd xml-common
+yum -y update
+yum -y install httpd php mariadb-server mariadb-client php-gd php-xml php-mysqlnd xml-common
+
+systemctl enable mariadb.service
+systemctl start mariadb.service
+
+systemctl enable httpd.service
+systemctl start httpd.service
+
+
+vi /var/www/html/phpinfo.php
+
+웹확인
+
+vi /etc/my.cnf.d/server.cnf
+
+mysql_secure_installation
+
+MariaDB [(none)]> grant all on *.* to centos@'%' identified by 'centos';
+MariaDB [(none)]> flush privileges;
+
+mysql -u centos -pcentos
+패스워드 확인
+
+create database xeDB;
+
+vi /etc/httpd/conf/httpd.conf
+151 AllowOverride All
+systemctl restart httpd.service
+
+wget http://mcs.ymsubiz.com/xe.zip
+
