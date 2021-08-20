@@ -38,3 +38,22 @@
 호스트명IP 에 복사
 사용자 root
 비번12345678
+
+17. 보안그룹규칙 인바운드 아웃바운드 0.0.0.0/0로 해야됨
+
+18. 보안그룹 규칙 에서 보안그룹에 있는 testrds (sg-07fa7e0d5c9e5db91)같은거 누르고
+인바운드 규칙 누르고 edit inbound rules  누름
+
+
+es2에서 rds 연결하기..
+
+1. es2 콘솔에서
+
+2. sudo apt-get install mysql-server
+
+3. sudo mysql -u root -p -h 엔드포인트
+
+비밀번호
+
+
+
