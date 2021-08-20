@@ -74,7 +74,7 @@ phpinfo();
 
 25. exit
 
-하이디sql로 sql:centos로 로그인 해보기
+
 
 26. 3306번포트 열어줘야됨 아래 여는방법
 
@@ -102,6 +102,10 @@ phpinfo();
 31. :wq
 
 // systemctl restart httpd.service
+
+
+하이디sql로 sql:centos로 로그인 해보기
+
 
 32. cd /var/www/html/
 
@@ -204,7 +208,7 @@ phpinfo();
 
 20. mysql> create user 'ubuntu'@'%' identified by 'ubuntu';
 
-21. mysql> grant all privileges on 'ubuntu'@'%';
+21. mysql> grant all privileges on *.* to 'ubuntu'@'%';
 
 22. MariaDB [(none)]> flush privileges;
 
@@ -218,21 +222,25 @@ phpinfo();
 
 27. exit
 
-하이디sql로 sql:centos로 로그인 해보기
-하이디sql 로 주소복붙, 아이디 centos, 비번 centos 포트번호 3306, 로그인
+28. # vi /etc/mysql/mysql.conf.d/mysqld.cnf >> 우분투 버전 18기준
+      vi /etc/mysql/mysql.conf.d/mysqld.cnf >>
 
-28. # vi /etc/mysql/mysql.conf.d/mysqld.cnf
+	우분투 버전확인 cat /ect/issue
 
 29.   - bind-address            = 127.0.0.1 >> 주석처리 후 저장
       
-30. service mysql restart
+30. Clinet로 외부 접근 확인
 
 31. ufw allow 80/tcp
 
 32. ufw allow 3306/tcp
 
-33. Clinet로 외부 접근 확인
+33. service mysql restart
        
+하이디sql로 sql:ubuntu로 로그인 해보기
+하이디sql 로 주소복붙, 아이디 ubuntu, 비번 ubuntu 포트번호 3306, 로그인
+
+
    [ XE 설치 ]
 
 34. apt-get -y install php php-gd php-xml 
@@ -243,7 +251,8 @@ phpinfo();
 
 37. wget http://mcs.ymsubiz.com/xe.zip
 
-38. unzip xe.zip
+38. apt install unzip
+    unzip xe.zip
 
 39. chmod 707 xe
 
