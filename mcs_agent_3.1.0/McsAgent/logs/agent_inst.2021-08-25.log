@@ -1,0 +1,231 @@
+[2021-08-25 15:18:43,477][ERROR] getConnection: dbUrl=[jdbc:mariadb://127.0.0.1:3306/smstest]
+java.lang.ClassNotFoundException: org.mariadb.jdbc.Driver
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:315)
+	at agnt.ds.DsUtil.getSimpleConnection(DsUtil.java:381)
+	at ext.inst.HanTester.existSmsSendTable(HanTester.java:145)
+	at ext.inst.HanTester.getDbHangulResult(HanTester.java:72)
+	at ext.inst.Configurer.hanTest(Configurer.java:462)
+	at ext.inst.Configurer.dbPart(Configurer.java:350)
+	at ext.inst.Configurer.interact(Configurer.java:71)
+	at ext.inst.AgentInstaller.install(AgentInstaller.java:137)
+	at ext.inst.AgentInstaller.main(AgentInstaller.java:425)
+[2021-08-25 15:18:43,491][ERROR] getConnection: dbUrl=[jdbc:mariadb://127.0.0.1:3306/smstest]
+java.lang.ClassNotFoundException: org.mariadb.jdbc.Driver
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:315)
+	at agnt.ds.DsUtil.getSimpleConnection(DsUtil.java:381)
+	at ext.inst.HanTester.getDbHangulResult(HanTester.java:174)
+	at ext.inst.HanTester.getDbHangulResult(HanTester.java:135)
+	at ext.inst.Configurer.hanTest(Configurer.java:462)
+	at ext.inst.Configurer.dbPart(Configurer.java:350)
+	at ext.inst.Configurer.interact(Configurer.java:71)
+	at ext.inst.AgentInstaller.install(AgentInstaller.java:137)
+	at ext.inst.AgentInstaller.main(AgentInstaller.java:425)
+[2021-08-25 15:18:43,492][ERROR] query=null
+java.lang.ClassNotFoundException: org.mariadb.jdbc.Driver
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:315)
+	at agnt.ds.DsUtil.getSimpleConnection(DsUtil.java:381)
+	at ext.inst.HanTester.getDbHangulResult(HanTester.java:174)
+	at ext.inst.HanTester.getDbHangulResult(HanTester.java:135)
+	at ext.inst.Configurer.hanTest(Configurer.java:462)
+	at ext.inst.Configurer.dbPart(Configurer.java:350)
+	at ext.inst.Configurer.interact(Configurer.java:71)
+	at ext.inst.AgentInstaller.install(AgentInstaller.java:137)
+	at ext.inst.AgentInstaller.main(AgentInstaller.java:425)
+[2021-08-25 15:18:43,574][ERROR] query2=drop table hantest_mcs
+java.lang.NullPointerException
+	at ext.inst.HanTester.getDbHangulResult(HanTester.java:261)
+	at ext.inst.HanTester.getDbHangulResult(HanTester.java:135)
+	at ext.inst.Configurer.hanTest(Configurer.java:462)
+	at ext.inst.Configurer.dbPart(Configurer.java:350)
+	at ext.inst.Configurer.interact(Configurer.java:71)
+	at ext.inst.AgentInstaller.install(AgentInstaller.java:137)
+	at ext.inst.AgentInstaller.main(AgentInstaller.java:425)
+[2021-08-25 15:22:27,929][DEBUG] UTF-8/UTF-8/한글 테스트샾
+[2021-08-25 15:22:27,929][DEBUG] UTF-8/MS949/�븳湲� �뀒�뒪�듃�꺘
+[2021-08-25 15:22:27,929][DEBUG] UTF-8/EUC_KR/��湲� ���ㅽ�몄��
+[2021-08-25 15:22:27,929][DEBUG] UTF-8/KSC5601/��湲� ���ㅽ�몄��
+[2021-08-25 15:22:27,930][DEBUG] UTF-8/Cp1252/í•œê¸€ í…ŒìŠ¤íŠ¸ìƒ¾
+[2021-08-25 15:22:27,930][DEBUG] UTF-8/ISO8859_1/íê¸ íì¤í¸ì¾
+[2021-08-25 15:22:27,930][DEBUG] UTF-8/ASCII/������ ������������
+[2021-08-25 15:22:27,930][DEBUG] MS949/UTF-8/�ѱ� �׽�Ʈ��
+[2021-08-25 15:22:27,930][DEBUG] MS949/MS949/한글 테스트샾
+[2021-08-25 15:22:27,930][DEBUG] MS949/EUC_KR/한글 테스트��
+[2021-08-25 15:22:27,930][DEBUG] MS949/KSC5601/한글 테스트��
+[2021-08-25 15:22:27,930][DEBUG] MS949/Cp1252/ÇÑ±Û Å×½ºÆ®˜Þ
+[2021-08-25 15:22:27,930][DEBUG] MS949/ISO8859_1/ÇÑ±Û Å×½ºÆ®Þ
+[2021-08-25 15:22:27,930][DEBUG] MS949/ASCII/���� ��������
+[2021-08-25 15:22:27,930][DEBUG] EUC_KR/UTF-8/�ѱ� �׽�Ʈ?
+[2021-08-25 15:22:27,930][DEBUG] EUC_KR/MS949/한글 테스트?
+[2021-08-25 15:22:27,930][DEBUG] EUC_KR/EUC_KR/한글 테스트?
+[2021-08-25 15:22:27,930][DEBUG] EUC_KR/KSC5601/한글 테스트?
+[2021-08-25 15:22:27,930][DEBUG] EUC_KR/Cp1252/ÇÑ±Û Å×½ºÆ®?
+[2021-08-25 15:22:27,930][DEBUG] EUC_KR/ISO8859_1/ÇÑ±Û Å×½ºÆ®?
+[2021-08-25 15:22:27,931][DEBUG] EUC_KR/ASCII/���� ������?
+[2021-08-25 15:22:27,931][DEBUG] KSC5601/UTF-8/�ѱ� �׽�Ʈ?
+[2021-08-25 15:22:27,931][DEBUG] KSC5601/MS949/한글 테스트?
+[2021-08-25 15:22:27,931][DEBUG] KSC5601/EUC_KR/한글 테스트?
+[2021-08-25 15:22:27,931][DEBUG] KSC5601/KSC5601/한글 테스트?
+[2021-08-25 15:22:27,931][DEBUG] KSC5601/Cp1252/ÇÑ±Û Å×½ºÆ®?
+[2021-08-25 15:22:27,931][DEBUG] KSC5601/ISO8859_1/ÇÑ±Û Å×½ºÆ®?
+[2021-08-25 15:22:27,931][DEBUG] KSC5601/ASCII/���� ������?
+[2021-08-25 15:22:27,931][DEBUG] Cp1252/UTF-8/?? ????
+[2021-08-25 15:22:27,931][DEBUG] Cp1252/MS949/?? ????
+[2021-08-25 15:22:27,931][DEBUG] Cp1252/EUC_KR/?? ????
+[2021-08-25 15:22:27,931][DEBUG] Cp1252/KSC5601/?? ????
+[2021-08-25 15:22:27,931][DEBUG] Cp1252/Cp1252/?? ????
+[2021-08-25 15:22:27,931][DEBUG] Cp1252/ISO8859_1/?? ????
+[2021-08-25 15:22:27,931][DEBUG] Cp1252/ASCII/?? ????
+[2021-08-25 15:22:27,931][DEBUG] ISO8859_1/UTF-8/?? ????
+[2021-08-25 15:22:27,931][DEBUG] ISO8859_1/MS949/?? ????
+[2021-08-25 15:22:27,931][DEBUG] ISO8859_1/EUC_KR/?? ????
+[2021-08-25 15:22:27,931][DEBUG] ISO8859_1/KSC5601/?? ????
+[2021-08-25 15:22:27,932][DEBUG] ISO8859_1/Cp1252/?? ????
+[2021-08-25 15:22:27,932][DEBUG] ISO8859_1/ISO8859_1/?? ????
+[2021-08-25 15:22:27,932][DEBUG] ISO8859_1/ASCII/?? ????
+[2021-08-25 15:22:27,932][DEBUG] ASCII/UTF-8/?? ????
+[2021-08-25 15:22:27,932][DEBUG] ASCII/MS949/?? ????
+[2021-08-25 15:22:27,932][DEBUG] ASCII/EUC_KR/?? ????
+[2021-08-25 15:22:27,932][DEBUG] ASCII/KSC5601/?? ????
+[2021-08-25 15:22:27,932][DEBUG] ASCII/Cp1252/?? ????
+[2021-08-25 15:22:27,932][DEBUG] ASCII/ISO8859_1/?? ????
+[2021-08-25 15:22:27,932][DEBUG] ASCII/ASCII/?? ????
+[2021-08-25 15:22:45,663][DEBUG] TestQuery: error=[ java.sql.SQLSyntaxErrorException: (conn=8) Table 'smstest.sdk_sms_send' doesn't exist ]
+[2021-08-25 15:22:45,700][DEBUG] SKIPPED : query=[ drop INDEX IDX_SDK_S_S_1 ON SDK_SMS_SEND ]
+, error=[ (conn=8) Can't DROP INDEX `IDX_SDK_S_S_1`; check that it exists ]
+[2021-08-25 15:22:45,700][DEBUG] SKIPPED : query=[ drop INDEX IDX_SDK_S_S_2 ON SDK_SMS_SEND ]
+, error=[ (conn=8) Can't DROP INDEX `IDX_SDK_S_S_2`; check that it exists ]
+[2021-08-25 15:22:45,701][DEBUG] SKIPPED : query=[ drop INDEX IDX_SDK_S_S_3 ON SDK_SMS_SEND ]
+, error=[ (conn=8) Can't DROP INDEX `IDX_SDK_S_S_3`; check that it exists ]
+[2021-08-25 15:22:45,712][DEBUG] TestQuery: error=[ java.sql.SQLSyntaxErrorException: (conn=8) Table 'smstest.sdk_sms_report' doesn't exist ]
+[2021-08-25 15:22:45,758][DEBUG] SKIPPED : query=[ drop INDEX IDX_SDK_S_R_1 ON SDK_SMS_REPORT ]
+, error=[ (conn=8) Can't DROP INDEX `IDX_SDK_S_R_1`; check that it exists ]
+[2021-08-25 15:22:45,759][DEBUG] SKIPPED : query=[ drop INDEX IDX_SDK_S_R_2 ON SDK_SMS_REPORT ]
+, error=[ (conn=8) Can't DROP INDEX `IDX_SDK_S_R_2`; check that it exists ]
+[2021-08-25 15:22:45,759][DEBUG] SKIPPED : query=[ drop INDEX IDX_SDK_S_R_3 ON SDK_SMS_REPORT ]
+, error=[ (conn=8) Can't DROP INDEX `IDX_SDK_S_R_3`; check that it exists ]
+[2021-08-25 15:22:45,759][DEBUG] SKIPPED : query=[ drop INDEX IDX_SDK_S_R_4 ON SDK_SMS_REPORT ]
+, error=[ (conn=8) Can't DROP INDEX `IDX_SDK_S_R_4`; check that it exists ]
+[2021-08-25 15:22:45,760][DEBUG] SKIPPED : query=[ drop INDEX IDX_SDK_S_R_5 ON SDK_SMS_REPORT ]
+, error=[ (conn=8) Can't DROP INDEX `IDX_SDK_S_R_5`; check that it exists ]
+[2021-08-25 15:22:45,767][DEBUG] TestQuery: error=[ java.sql.SQLSyntaxErrorException: (conn=8) Table 'smstest.sdk_sms_report_detail' doesn't exist ]
+[2021-08-25 15:22:45,794][DEBUG] SKIPPED : query=[ drop INDEX IDX_SDK_S_RD_1 ON SDK_SMS_REPORT_DETAIL ]
+, error=[ (conn=8) Can't DROP INDEX `IDX_SDK_S_RD_1`; check that it exists ]
+[2021-08-25 15:22:45,795][DEBUG] SKIPPED : query=[ drop INDEX IDX_SDK_S_RD_2 ON SDK_SMS_REPORT_DETAIL ]
+, error=[ (conn=8) Can't DROP INDEX `IDX_SDK_S_RD_2`; check that it exists ]
+[2021-08-25 15:22:45,795][DEBUG] SKIPPED : query=[ drop INDEX IDX_SDK_S_RD_3 ON SDK_SMS_REPORT_DETAIL ]
+, error=[ (conn=8) Can't DROP INDEX `IDX_SDK_S_RD_3`; check that it exists ]
+[2021-08-25 15:22:45,795][DEBUG] SKIPPED : query=[ drop INDEX IDX_SDK_S_RD_4 ON SDK_SMS_REPORT_DETAIL ]
+, error=[ (conn=8) Can't DROP INDEX `IDX_SDK_S_RD_4`; check that it exists ]
+[2021-08-25 15:22:45,796][DEBUG] SKIPPED : query=[ drop INDEX IDX_SDK_S_RD_5 ON SDK_SMS_REPORT_DETAIL ]
+, error=[ (conn=8) Can't DROP INDEX `IDX_SDK_S_RD_5`; check that it exists ]
+[2021-08-25 15:22:45,803][DEBUG] TestQuery: error=[ java.sql.SQLSyntaxErrorException: (conn=8) Table 'smstest.sdk_sms_receive' doesn't exist ]
+[2021-08-25 15:22:45,836][DEBUG] SKIPPED : query=[ drop INDEX IDX_SDK_S_RC_2 ON SDK_SMS_RECEIVE ]
+, error=[ (conn=8) Can't DROP INDEX `IDX_SDK_S_RC_2`; check that it exists ]
+[2021-08-25 15:22:45,837][DEBUG] SKIPPED : query=[ drop INDEX IDX_SDK_S_RC_3 ON SDK_SMS_RECEIVE ]
+, error=[ (conn=8) Can't DROP INDEX `IDX_SDK_S_RC_3`; check that it exists ]
+[2021-08-25 15:22:45,837][DEBUG] SKIPPED : query=[ drop INDEX IDX_SDK_S_RC_4 ON SDK_SMS_RECEIVE ]
+, error=[ (conn=8) Can't DROP INDEX `IDX_SDK_S_RC_4`; check that it exists ]
+[2021-08-25 15:22:45,837][DEBUG] SKIPPED : query=[ drop INDEX IDX_SDK_S_RC_5 ON SDK_SMS_RECEIVE ]
+, error=[ (conn=8) Can't DROP INDEX `IDX_SDK_S_RC_5`; check that it exists ]
+[2021-08-25 15:22:45,838][DEBUG] SKIPPED : query=[ drop INDEX IDX_SDK_S_RC_6 ON SDK_SMS_RECEIVE ]
+, error=[ (conn=8) Can't DROP INDEX `IDX_SDK_S_RC_6`; check that it exists ]
+[2021-08-25 15:22:45,845][DEBUG] TestQuery: error=[ java.sql.SQLSyntaxErrorException: (conn=8) Table 'smstest.sdk_vms_send' doesn't exist ]
+[2021-08-25 15:22:45,883][DEBUG] SKIPPED : query=[ drop INDEX IDX_SDK_V_S_1 ON SDK_VMS_SEND ]
+, error=[ (conn=8) Can't DROP INDEX `IDX_SDK_V_S_1`; check that it exists ]
+[2021-08-25 15:22:45,884][DEBUG] SKIPPED : query=[ drop INDEX IDX_SDK_V_S_2 ON SDK_VMS_SEND ]
+, error=[ (conn=8) Can't DROP INDEX `IDX_SDK_V_S_2`; check that it exists ]
+[2021-08-25 15:22:45,884][DEBUG] SKIPPED : query=[ drop INDEX IDX_SDK_V_S_3 ON SDK_VMS_SEND ]
+, error=[ (conn=8) Can't DROP INDEX `IDX_SDK_V_S_3`; check that it exists ]
+[2021-08-25 15:22:45,891][DEBUG] TestQuery: error=[ java.sql.SQLSyntaxErrorException: (conn=8) Table 'smstest.sdk_vms_report' doesn't exist ]
+[2021-08-25 15:22:45,941][DEBUG] SKIPPED : query=[ drop INDEX IDX_SDK_V_R_1 ON SDK_VMS_REPORT ]
+, error=[ (conn=8) Can't DROP INDEX `IDX_SDK_V_R_1`; check that it exists ]
+[2021-08-25 15:22:45,941][DEBUG] SKIPPED : query=[ drop INDEX IDX_SDK_V_R_2 ON SDK_VMS_REPORT ]
+, error=[ (conn=8) Can't DROP INDEX `IDX_SDK_V_R_2`; check that it exists ]
+[2021-08-25 15:22:45,941][DEBUG] SKIPPED : query=[ drop INDEX IDX_SDK_V_R_3 ON SDK_VMS_REPORT ]
+, error=[ (conn=8) Can't DROP INDEX `IDX_SDK_V_R_3`; check that it exists ]
+[2021-08-25 15:22:45,942][DEBUG] SKIPPED : query=[ drop INDEX IDX_SDK_V_R_4 ON SDK_VMS_REPORT ]
+, error=[ (conn=8) Can't DROP INDEX `IDX_SDK_V_R_4`; check that it exists ]
+[2021-08-25 15:22:45,950][DEBUG] TestQuery: error=[ java.sql.SQLSyntaxErrorException: (conn=8) Table 'smstest.sdk_vms_report_detail' doesn't exist ]
+[2021-08-25 15:22:45,974][DEBUG] SKIPPED : query=[ drop INDEX IDX_SDK_V_RD_1 ON SDK_VMS_REPORT_DETAIL ]
+, error=[ (conn=8) Can't DROP INDEX `IDX_SDK_V_RD_1`; check that it exists ]
+[2021-08-25 15:22:45,974][DEBUG] SKIPPED : query=[ drop INDEX IDX_SDK_V_RD_2 ON SDK_VMS_REPORT_DETAIL ]
+, error=[ (conn=8) Can't DROP INDEX `IDX_SDK_V_RD_2`; check that it exists ]
+[2021-08-25 15:22:45,975][DEBUG] SKIPPED : query=[ drop INDEX IDX_SDK_V_RD_3 ON SDK_VMS_REPORT_DETAIL ]
+, error=[ (conn=8) Can't DROP INDEX `IDX_SDK_V_RD_3`; check that it exists ]
+[2021-08-25 15:22:45,975][DEBUG] SKIPPED : query=[ drop INDEX IDX_SDK_V_RD_4 ON SDK_VMS_REPORT_DETAIL ]
+, error=[ (conn=8) Can't DROP INDEX `IDX_SDK_V_RD_4`; check that it exists ]
+[2021-08-25 15:22:45,975][DEBUG] SKIPPED : query=[ drop INDEX IDX_SDK_V_RD_5 ON SDK_VMS_REPORT_DETAIL ]
+, error=[ (conn=8) Can't DROP INDEX `IDX_SDK_V_RD_5`; check that it exists ]
+[2021-08-25 15:22:45,976][DEBUG] SKIPPED : query=[ drop INDEX IDX_SDK_V_RD_6 ON SDK_VMS_REPORT_DETAIL ]
+, error=[ (conn=8) Can't DROP INDEX `IDX_SDK_V_RD_6`; check that it exists ]
+[2021-08-25 15:22:45,983][DEBUG] TestQuery: error=[ java.sql.SQLSyntaxErrorException: (conn=8) Table 'smstest.sdk_fms_send' doesn't exist ]
+[2021-08-25 15:22:46,012][DEBUG] SKIPPED : query=[ drop INDEX IDX_SDK_F_S_1 ON SDK_FMS_SEND ]
+, error=[ (conn=8) Can't DROP INDEX `IDX_SDK_F_S_1`; check that it exists ]
+[2021-08-25 15:22:46,012][DEBUG] SKIPPED : query=[ drop INDEX IDX_SDK_F_S_2 ON SDK_FMS_SEND ]
+, error=[ (conn=8) Can't DROP INDEX `IDX_SDK_F_S_2`; check that it exists ]
+[2021-08-25 15:22:46,012][DEBUG] SKIPPED : query=[ drop INDEX IDX_SDK_F_S_3 ON SDK_FMS_SEND ]
+, error=[ (conn=8) Can't DROP INDEX `IDX_SDK_F_S_3`; check that it exists ]
+[2021-08-25 15:22:46,020][DEBUG] TestQuery: error=[ java.sql.SQLSyntaxErrorException: (conn=8) Table 'smstest.sdk_fms_report' doesn't exist ]
+[2021-08-25 15:22:46,052][DEBUG] SKIPPED : query=[ drop INDEX IDX_SDK_F_R_1 ON SDK_FMS_REPORT ]
+, error=[ (conn=8) Can't DROP INDEX `IDX_SDK_F_R_1`; check that it exists ]
+[2021-08-25 15:22:46,053][DEBUG] SKIPPED : query=[ drop INDEX IDX_SDK_F_R_2 ON SDK_FMS_REPORT ]
+, error=[ (conn=8) Can't DROP INDEX `IDX_SDK_F_R_2`; check that it exists ]
+[2021-08-25 15:22:46,053][DEBUG] SKIPPED : query=[ drop INDEX IDX_SDK_F_R_3 ON SDK_FMS_REPORT ]
+, error=[ (conn=8) Can't DROP INDEX `IDX_SDK_F_R_3`; check that it exists ]
+[2021-08-25 15:22:46,054][DEBUG] SKIPPED : query=[ drop INDEX IDX_SDK_F_R_4 ON SDK_FMS_REPORT ]
+, error=[ (conn=8) Can't DROP INDEX `IDX_SDK_F_R_4`; check that it exists ]
+[2021-08-25 15:22:46,062][DEBUG] TestQuery: error=[ java.sql.SQLSyntaxErrorException: (conn=8) Table 'smstest.sdk_fms_report_detail' doesn't exist ]
+[2021-08-25 15:22:46,086][DEBUG] SKIPPED : query=[ drop INDEX IDX_SDK_F_RD_1 ON SDK_FMS_REPORT_DETAIL ]
+, error=[ (conn=8) Can't DROP INDEX `IDX_SDK_F_RD_1`; check that it exists ]
+[2021-08-25 15:22:46,087][DEBUG] SKIPPED : query=[ drop INDEX IDX_SDK_F_RD_2 ON SDK_FMS_REPORT_DETAIL ]
+, error=[ (conn=8) Can't DROP INDEX `IDX_SDK_F_RD_2`; check that it exists ]
+[2021-08-25 15:22:46,087][DEBUG] SKIPPED : query=[ drop INDEX IDX_SDK_F_RD_3 ON SDK_FMS_REPORT_DETAIL ]
+, error=[ (conn=8) Can't DROP INDEX `IDX_SDK_F_RD_3`; check that it exists ]
+[2021-08-25 15:22:46,088][DEBUG] SKIPPED : query=[ drop INDEX IDX_SDK_F_RD_4 ON SDK_FMS_REPORT_DETAIL ]
+, error=[ (conn=8) Can't DROP INDEX `IDX_SDK_F_RD_4`; check that it exists ]
+[2021-08-25 15:22:46,088][DEBUG] SKIPPED : query=[ drop INDEX IDX_SDK_F_RD_5 ON SDK_FMS_REPORT_DETAIL ]
+, error=[ (conn=8) Can't DROP INDEX `IDX_SDK_F_RD_5`; check that it exists ]
+[2021-08-25 15:22:46,088][DEBUG] SKIPPED : query=[ drop INDEX IDX_SDK_F_RD_6 ON SDK_FMS_REPORT_DETAIL ]
+, error=[ (conn=8) Can't DROP INDEX `IDX_SDK_F_RD_6`; check that it exists ]
+[2021-08-25 15:22:46,096][DEBUG] TestQuery: error=[ java.sql.SQLSyntaxErrorException: (conn=8) Table 'smstest.sdk_fms_receive' doesn't exist ]
+[2021-08-25 15:22:46,120][DEBUG] SKIPPED : query=[ drop INDEX IDX_SDK_F_RC_1 ON SDK_FMS_RECEIVE ]
+, error=[ (conn=8) Can't DROP INDEX `IDX_SDK_F_RC_1`; check that it exists ]
+[2021-08-25 15:22:46,128][DEBUG] TestQuery: error=[ java.sql.SQLSyntaxErrorException: (conn=8) Table 'smstest.sdk_mms_send' doesn't exist ]
+[2021-08-25 15:22:46,163][DEBUG] SKIPPED : query=[ drop INDEX IDX_SDK_M_S_1 ON SDK_MMS_SEND ]
+, error=[ (conn=8) Can't DROP INDEX `IDX_SDK_M_S_1`; check that it exists ]
+[2021-08-25 15:22:46,163][DEBUG] SKIPPED : query=[ drop INDEX IDX_SDK_M_S_2 ON SDK_MMS_SEND ]
+, error=[ (conn=8) Can't DROP INDEX `IDX_SDK_M_S_2`; check that it exists ]
+[2021-08-25 15:22:46,164][DEBUG] SKIPPED : query=[ drop INDEX IDX_SDK_M_S_3 ON SDK_MMS_SEND ]
+, error=[ (conn=8) Can't DROP INDEX `IDX_SDK_M_S_3`; check that it exists ]
+[2021-08-25 15:22:46,174][DEBUG] TestQuery: error=[ java.sql.SQLSyntaxErrorException: (conn=8) Table 'smstest.sdk_mms_report' doesn't exist ]
+[2021-08-25 15:22:46,222][DEBUG] SKIPPED : query=[ drop INDEX IDX_SDK_M_R_1 ON SDK_MMS_REPORT ]
+, error=[ (conn=8) Can't DROP INDEX `IDX_SDK_M_R_1`; check that it exists ]
+[2021-08-25 15:22:46,223][DEBUG] SKIPPED : query=[ drop INDEX IDX_SDK_M_R_2 ON SDK_MMS_REPORT ]
+, error=[ (conn=8) Can't DROP INDEX `IDX_SDK_M_R_2`; check that it exists ]
+[2021-08-25 15:22:46,223][DEBUG] SKIPPED : query=[ drop INDEX IDX_SDK_M_R_3 ON SDK_MMS_REPORT ]
+, error=[ (conn=8) Can't DROP INDEX `IDX_SDK_M_R_3`; check that it exists ]
+[2021-08-25 15:22:46,230][DEBUG] TestQuery: error=[ java.sql.SQLSyntaxErrorException: (conn=8) Table 'smstest.sdk_mms_report_detail' doesn't exist ]
+[2021-08-25 15:22:46,263][DEBUG] SKIPPED : query=[ drop INDEX IDX_SDK_M_RD_1 ON SDK_MMS_REPORT_DETAIL ]
+, error=[ (conn=8) Can't DROP INDEX `IDX_SDK_M_RD_1`; check that it exists ]
+[2021-08-25 15:22:46,264][DEBUG] SKIPPED : query=[ drop INDEX IDX_SDK_M_RD_2 ON SDK_MMS_REPORT_DETAIL ]
+, error=[ (conn=8) Can't DROP INDEX `IDX_SDK_M_RD_2`; check that it exists ]
+[2021-08-25 15:22:46,264][DEBUG] SKIPPED : query=[ drop INDEX IDX_SDK_M_RD_3 ON SDK_MMS_REPORT_DETAIL ]
+, error=[ (conn=8) Can't DROP INDEX `IDX_SDK_M_RD_3`; check that it exists ]
+[2021-08-25 15:22:46,264][DEBUG] SKIPPED : query=[ drop INDEX IDX_SDK_M_RD_4 ON SDK_MMS_REPORT_DETAIL ]
+, error=[ (conn=8) Can't DROP INDEX `IDX_SDK_M_RD_4`; check that it exists ]
+[2021-08-25 15:22:46,264][DEBUG] SKIPPED : query=[ drop INDEX IDX_SDK_M_RD_5 ON SDK_MMS_REPORT_DETAIL ]
+, error=[ (conn=8) Can't DROP INDEX `IDX_SDK_M_RD_5`; check that it exists ]
+[2021-08-25 15:22:46,272][DEBUG] TestQuery: error=[ java.sql.SQLSyntaxErrorException: (conn=8) Table 'smstest.sdk_send_stat' doesn't exist ]
+[2021-08-25 15:22:46,291][DEBUG] TestQuery: error=[ java.sql.SQLSyntaxErrorException: (conn=8) Table 'smstest.sdk_recv_stat' doesn't exist ]

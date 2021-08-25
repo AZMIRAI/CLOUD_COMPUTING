@@ -1,0 +1,13 @@
+[2021-08-25 15:24:03,467]{29424}[DEBUG] [SEND-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="req_auth">
+  <ServiceProviderID>ymstest3</ServiceProviderID>
+</MAS>
+](len=122)
+[2021-08-25 15:24:03,546]{29424}[DEBUG] [RECV-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="res_auth">
+  <Result>0</Result>
+  <Time>20210825152403</Time>
+</MAS>
+](len=124)

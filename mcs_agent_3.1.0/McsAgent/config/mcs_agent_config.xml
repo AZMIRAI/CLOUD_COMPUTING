@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<properties>
+  <category name="AGENT">
+    <property name="01.USE_AUTO_START" value="Y"/>
+    <property name="11.USE_FMS_RECEIVE" value="Y"/>
+    <property name="11.USE_FMS_SEND" value="Y"/>
+    <property name="11.USE_MMS_SEND" value="Y"/>
+    <property name="11.USE_SMS_RECEIVE" value="Y"/>
+    <property name="11.USE_SMS_SEND" value="Y"/>
+    <property name="11.USE_VMS_SEND" value="Y"/>
+    <property name="12.LOCAL_HEALTH_PORT" value="12999"/>
+    <property name="12.MONITORING_PERIOD_SEC" value="10"/>
+    <property name="12.MONITOR_PORT" value="12998"/>
+    <property name="13.LOG_TABLE_TYPE" value="F"/>
+    <property name="14.FETCH_PERIOD_SEC" value="1"/>
+    <property name="15.USE_AGENT_RESERVED" value="Y"/>
+    <property name="16.STOP_SEND_END" value="0800"/>
+    <property name="16.STOP_SEND_START" value="2100"/>
+    <property name="16.USE_STOP_SEND" value="N"/>
+    <property name="17.EXPIRED_PING_LIMIT" value="3"/>
+    <property name="17.PING_PERIOD_SEC" value="30"/>
+    <property name="18.STAT_TIME" value="0100"/>
+    <property name="18.USE_STAT" value="N"/>
+    <property name="19.USE_CONTENT_CACHE" value="Y"/>
+    <property name="20.CONVERT_TIMEOUT_MIN" value="30"/>
+    <property name="21.ATTACH_SIZE_LIMIT_KB" value="1024"/>
+    <property name="22.ATTACH_WORKER_NUM" value="10"/>
+    <property name="31.MAS_ERROR_CNT_LIMIT" value="3"/>
+    <property name="31.MAS_ERROR_CODE" value="res_send_message_all:1,req_report:1,res_storage:52"/>
+    <property name="31.MAS_RETURN_DELAY_MIN" value="10"/>
+    <property name="31.USE_MULTI_MAS" value="N"/>
+    <property name="32.NO_DUPL_MSG_SEC" value="30"/>
+    <property name="32.USE_NO_DUPL_MSG" value="N"/>
+    <property name="33.NO_RECV_REPORT" value="N"/>
+    <property name="34.USE_MMS_RESULT_2" value="N"/>
+    <property name="35.NO_LIMIT_SEND_DATE" value="N"/>
+    <property name="51.JAVA_MAX_MEM_MB" value="1024"/>
+    <property name="52.JAVA_OPTIONS" value=""/>
+    <property name="53.TIME_ZONE" value="Asia/Seoul"/>
+    <property name="54.TQ_FACTOR" value="400"/>
+    <property name="61.SOCK_TIMEOUT_MSEC" value="2500"/>
+    <property name="62.SOCK_RETRY_CNT" value="5"/>
+    <property name="63.SEND_BUF_SIZE" value="8192"/>
+    <property name="64.RECV_BUF_SIZE" value="8192"/>
+    <property name="65.SELECTOR_PROVIDER" value=""/>
+    <property name="71.USE_DEBUG_LOG" value="Y"/>
+    <property name="72.USE_MSG_LOG" value="Y"/>
+    <property name="73.SHOW_LSNR_LOG" value="N"/>
+    <property name="73.SHOW_TOT_LEN" value="N"/>
+    <property name="81.USE_CONFIG_ENCRYPT" value="Y"/>
+  </category>
+  <category name="MAS2">
+    <property name="01.MAS_RCS_URL" value="http://rcs2.xroshot.com:80/catalogs/MAS/recommended/0"/>
+    <property name="02.TCSMSG_FILE_RCS_URL" value="http://rcs2.xroshot.com:80/catalogs/FUS-TCSMSG/recommended/0"/>
+    <property name="03.EMER_RCS_ADDR" value="210.105.195.140:80"/>
+    <property name="04.EMER_MAS_ADDR" value="210.105.195.150:80"/>
+    <property name="05.EMER_FUS_ADDR" value="210.105.195.145:80"/>
+  </category>
+  <category name="general">
+  </category>
+  <category name="MAS1">
+    <property name="01.MAS_RCS_URL" value="http://rcs.xroshot.com:80/catalogs/MAS/recommended/0"/>
+    <property name="02.TCSMSG_FILE_RCS_URL" value="http://rcs.xroshot.com:80/catalogs/FUS-TCSMSG/recommended/0"/>
+    <property name="03.EMER_RCS_ADDR" value="119.205.196.225:80"/>
+    <property name="04.EMER_MAS_ADDR" value="119.205.196.240:80"/>
+    <property name="05.EMER_FUS_ADDR" value="119.205.196.211:80"/>
+  </category>
+  <category name="STD">
+    <property name="01.STD_TYPE" value="new"/>
+  </category>
+  <category name="FILES">
+    <property name="01.SMS_FILE_DIR" value="./file/sms/"/>
+    <property name="02.VMS_FILE_DIR" value="./file/vms/"/>
+    <property name="03.VMS_RECEIVE_DIR" value="./file/vms/recv/"/>
+    <property name="04.FMS_SEND_DIR" value="./file/fms/send/"/>
+    <property name="05.FAX_RECEIVE_DIR" value="./file/fms/recv/"/>
+    <property name="06.MMS_FILE_DIR" value="./file/mms/"/>
+    <property name="07.INTERFACE_DIR" value="./file/interface/"/>
+    <property name="08.LOG_DIR" value="./logs/"/>
+  </category>
+  <category name="USER">
+    <property name="00.MAS_NUM" value="2"/>
+    <property name="01.SP_ID" value="ymstest3"/>
+    <property name="02.SP_PW" value="v9y2YBoOFxhq0wX/IrkzjA=="/>
+    <property name="03.END_USER_ID" value="ymstest3"/>
+    <property name="04.AUTH_FILE" value="ymstest3.cert"/>
+  </category>
+  <category name="DB">
+    <property name="01.DB_TYPE" value="maria"/>
+    <property name="02.DB_SERVER" value="127.0.0.1"/>
+    <property name="03.DB_PORT" value="3306"/>
+    <property name="04.DB_NAME" value="smstest"/>
+    <property name="05.DB_USER_ID" value="root"/>
+    <property name="06.DB_USER_PW" value="9VYujbKm1rw+JUwhrwieXA=="/>
+    <property name="07.DB_CHARSET" value="UTF-8|UTF-8"/>
+    <property name="08.DB_MAX_CONN" value="10"/>
+    <property name="09.QUERY_TIMEOUT_SEC" value="30"/>
+    <property name="10.USE_FETCH_TX" value="Y"/>
+    <property name="11.IFX_NO_LOGGING" value="Y"/>
+    <property name="11.USE_MSSQL_NOLOCK" value="N"/>
+    <property name="12.USE_DB_TIME" value="Y"/>
+    <property name="DATA_SOURCE_CLASS" value=""/>
+    <property name="JDBC_DRIVER_CLASS" value=""/>
+    <property name="JDBC_URL" value=""/>
+    <property name="USE_JDBC4" value="Y"/>
+  </category>
+  <category name="SUB_USER">
+    <property name="00.MAS_NUM" value=""/>
+    <property name="01.SP_ID" value=""/>
+    <property name="02.SP_PW" value=""/>
+    <property name="03.END_USER_ID" value=""/>
+    <property name="04.AUTH_FILE" value=""/>
+  </category>
+</properties>

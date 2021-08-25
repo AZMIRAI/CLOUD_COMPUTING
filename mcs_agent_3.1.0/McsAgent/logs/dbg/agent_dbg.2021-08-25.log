@@ -1,0 +1,396 @@
+[2021-08-25 15:13:54,342]{}[ERROR] CfgMngr(68bbe345): ConfigFile not exist: file=[C:\Users\TOORU\STUDY\CLOUD_COMPUTING\mcs_agent_3.1.0\McsAgent\config\mcs_agent_config.xml]
+[2021-08-25 15:13:54,344]{}[ERROR] CfgMngr(68bbe345): ConfigFile not exist: file=[C:\Users\TOORU\STUDY\CLOUD_COMPUTING\mcs_agent_3.1.0\McsAgent\config\mcs_agent_config.xml]
+[2021-08-25 15:19:08,265]{}[ERROR] CfgMngr(3f197a46): ConfigFile not exist: file=[C:\Users\TOORU\STUDY\CLOUD_COMPUTING\mcs_agent_3.1.0\McsAgent\config\mcs_agent_config.xml]
+[2021-08-25 15:19:08,268]{}[ERROR] CfgMngr(3f197a46): ConfigFile not exist: file=[C:\Users\TOORU\STUDY\CLOUD_COMPUTING\mcs_agent_3.1.0\McsAgent\config\mcs_agent_config.xml]
+[2021-08-25 15:19:36,518]{}[ERROR] CfgMngr(3f197a46): ConfigFile not exist: file=[C:\Users\TOORU\STUDY\CLOUD_COMPUTING\mcs_agent_3.1.0\McsAgent\config\mcs_agent_config.xml]
+[2021-08-25 15:19:36,519]{}[ERROR] CfgMngr(3f197a46): ConfigFile not exist: file=[C:\Users\TOORU\STUDY\CLOUD_COMPUTING\mcs_agent_3.1.0\McsAgent\config\mcs_agent_config.xml]
+[2021-08-25 15:19:41,006]{}[ERROR] CfgMngr(130161f7): ConfigFile not exist: file=[C:\Users\TOORU\STUDY\CLOUD_COMPUTING\mcs_agent_3.1.0\McsAgent\config\mcs_agent_config.xml]
+[2021-08-25 15:19:41,007]{}[ERROR] CfgMngr(130161f7): ConfigFile not exist: file=[C:\Users\TOORU\STUDY\CLOUD_COMPUTING\mcs_agent_3.1.0\McsAgent\config\mcs_agent_config.xml]
+[2021-08-25 15:20:48,372]{}[ERROR] CfgMngr(635eaaf1): ConfigFile not exist: file=[C:\Users\TOORU\STUDY\CLOUD_COMPUTING\mcs_agent_3.1.0\McsAgent\config\mcs_agent_config.xml]
+[2021-08-25 15:20:48,373]{}[ERROR] CfgMngr(635eaaf1): ConfigFile not exist: file=[C:\Users\TOORU\STUDY\CLOUD_COMPUTING\mcs_agent_3.1.0\McsAgent\config\mcs_agent_config.xml]
+[2021-08-25 15:21:02,334]{}[ERROR] CfgMngr(3427b02d): ConfigFile not exist: file=[C:\Users\TOORU\STUDY\CLOUD_COMPUTING\mcs_agent_3.1.0\McsAgent\config\mcs_agent_config.xml]
+[2021-08-25 15:21:02,335]{}[ERROR] CfgMngr(3427b02d): ConfigFile not exist: file=[C:\Users\TOORU\STUDY\CLOUD_COMPUTING\mcs_agent_3.1.0\McsAgent\config\mcs_agent_config.xml]
+[2021-08-25 15:21:48,232]{}[ERROR] CfgMngr(3427b02d): ConfigFile not exist: file=[C:\Users\TOORU\STUDY\CLOUD_COMPUTING\mcs_agent_3.1.0\McsAgent\config\mcs_agent_config.xml]
+[2021-08-25 15:21:48,233]{}[ERROR] CfgMngr(3427b02d): ConfigFile not exist: file=[C:\Users\TOORU\STUDY\CLOUD_COMPUTING\mcs_agent_3.1.0\McsAgent\config\mcs_agent_config.xml]
+[2021-08-25 15:22:45,618]{}[INFO ] CfgMngr(3427b02d): ConfigFile read ok
+[2021-08-25 15:22:45,634]{16504}[DEBUG] LgMngr(6ebc05a6).configureLog: log dir is default!
+[2021-08-25 15:22:45,766]{16504}[WARN ] RptTableScriptFile is not exist: ./file/script/rpt_table_index.sql
+[2021-08-25 15:22:45,802]{16504}[WARN ] RptDtlTableScriptFile is not exist: ./file/script/rptdtl_table_index.sql
+[2021-08-25 15:22:45,949]{16504}[WARN ] RptTableScriptFile is not exist: ./file/script/rpt_table_index.sql
+[2021-08-25 15:22:45,983]{16504}[WARN ] RptDtlTableScriptFile is not exist: ./file/script/rptdtl_table_index.sql
+[2021-08-25 15:22:46,061]{16504}[WARN ] RptTableScriptFile is not exist: ./file/script/rpt_table_index.sql
+[2021-08-25 15:22:46,095]{16504}[WARN ] RptDtlTableScriptFile is not exist: ./file/script/rptdtl_table_index.sql
+[2021-08-25 15:22:46,229]{16504}[WARN ] RptTableScriptFile is not exist: ./file/script/rpt_table_index.sql
+[2021-08-25 15:22:46,271]{16504}[WARN ] RptDtlTableScriptFile is not exist: ./file/script/rptdtl_table_index.sql
+[2021-08-25 15:24:02,188]{}[INFO ] CfgMngr(64bf3bbf): ConfigFile read ok
+[2021-08-25 15:24:02,195]{34184}[DEBUG] LgMngr(706a04ae).configureLog: log dir is default!
+[2021-08-25 15:24:02,200]{34184}[INFO ] (Agent) using jvmEncoding: [UTF-8]
+[2021-08-25 15:24:02,200]{34184}[INFO ] (Agent) using timeZone: [Asia/Seoul]
+[2021-08-25 15:24:02,200]{34184}[INFO ] (Agent) using maxMemMb: [1024]
+[2021-08-25 15:24:02,221]{34184}[DEBUG] doWindowService: unknown serviceName: [MCSAgentSvc]
+[2021-08-25 15:24:02,221]{34184}[DEBUG] startAgent commandLine1=["C:\Program Files\AdoptOpenJDK\jdk-11.0.10.9-hotspot\bin\McsAgentJ.exe" -DMCSAgent -Dfile.encoding=UTF-8 -Duser.timezone=Asia/Seoul -Xmx1024m -classpath ./lib/apache-log4j-extras-1.2.17.jar;./lib/commons-cli-1.3.1.jar;./lib/commons-codec-1.10.jar;./lib/commons-io-2.4.jar;./lib/javassist-3.18.2-GA.jar;./lib/jconfig-2.9.jar;./lib/jdom2-2.0.6.jar;./lib/juniversalchardet-1.0.3.jar;./lib/log4j-1.2.17.jar;./lib/mcsm.jar;./lib/quartz-2.2.1.jar;./lib/sigar-1.6.4.jar;./lib/slf4j-api-1.6.6.jar;./lib/slf4j-log4j12-1.6.6.jar;./lib/j8/HikariCP-3.2.0.jar;./lib/jdbc/mariadb-java-client-1.7.4.jar agnt.main.AgentExe]
+[2021-08-25 15:24:02,660]{}[INFO ] CfgMngr(6500df86): ConfigFile read ok
+[2021-08-25 15:24:02,665]{29424}[DEBUG] LgMngr(706a04ae).configureLog: log dir is default!
+[2021-08-25 15:24:02,665]{29424}[DEBUG] ================================================
+[2021-08-25 15:24:02,670]{29424}[DEBUG] AgentExe(4667ae56).startAgent-1
+[2021-08-25 15:24:02,672]{29424}[TRACE] AgentMain(52e6fdee).changeStatus: [STOPPED] -> [STARTING]
+[2021-08-25 15:24:02,673]{29424}[TRACE] RoutineHandler(6dc17b83).startRoutine: newRoutine=PREPARE_RTN (current routine=null)
+[2021-08-25 15:24:02,673]{29424}[TRACE] CfgMngr(6500df86).start
+[2021-08-25 15:24:02,673]{29424}[TRACE] CfgMngr(6500df86).changeStatus: [STOPPED] -> [STARTING]
+[2021-08-25 15:24:02,673]{29424}[TRACE] RoutineHandler(6dc17b83).statusChnaged: mngr=CfgMngr, status=STARTING, aborted=false (PREPARE_RTN)
+[2021-08-25 15:24:02,673]{29424}[DEBUG] RoutineHandler(6dc17b83).statusChnaged: no suffix (status=STARTING)
+[2021-08-25 15:24:02,673]{29424}[TRACE] CfgMngr(6500df86).startDefault0: currStatus=STOPPED, continuing=true
+[2021-08-25 15:24:02,673]{29424}[TRACE] CfgMngr(6500df86).startInternal
+[2021-08-25 15:24:02,673]{29424}[TRACE] CfgMngr(6500df86).afterStart0: success=true
+[2021-08-25 15:24:02,673]{29424}[TRACE] CfgMngr(6500df86).changeStatus: [STARTING] -> [STARTED]
+[2021-08-25 15:24:02,673]{29424}[TRACE] RoutineHandler(6dc17b83).statusChnaged: mngr=CfgMngr, status=STARTED, aborted=false (PREPARE_RTN)
+[2021-08-25 15:24:02,673]{29424}[TRACE] RoutineHandler(6dc17b83).invokeEventMethod: methodName=afterCfgMngrStart, success=true (PREPARE_RTN)
+[2021-08-25 15:24:02,673]{29424}[TRACE] RoutineHandler(6dc17b83).afterCfgMngrStart: success=true (PREPARE_RTN)
+[2021-08-25 15:24:02,673]{29424}[TRACE] LgMngr(706a04ae).start
+[2021-08-25 15:24:02,673]{29424}[TRACE] LgMngr(706a04ae).changeStatus: [STOPPED] -> [STARTING]
+[2021-08-25 15:24:02,673]{29424}[TRACE] RoutineHandler(6dc17b83).statusChnaged: mngr=LgMngr, status=STARTING, aborted=false (PREPARE_RTN)
+[2021-08-25 15:24:02,673]{29424}[DEBUG] RoutineHandler(6dc17b83).statusChnaged: no suffix (status=STARTING)
+[2021-08-25 15:24:02,673]{29424}[TRACE] LgMngr(706a04ae).startDefault0: currStatus=STOPPED, continuing=true
+[2021-08-25 15:24:02,673]{29424}[TRACE] LgMngr(706a04ae).startScheduler: sche=null
+[2021-08-25 15:24:02,714]{29424}[TRACE] LgMngr(706a04ae).scheduleRepeatJob: jobClass=SecLogJob, delaySec=1, durationSec=1
+[2021-08-25 15:24:02,986]{29424}[TRACE] LgMngr(706a04ae).scheduleDailyJob: jobClass=LogBackupJob, hourOfDay=0, minOfHour=1
+[2021-08-25 15:24:02,993]{29424}[TRACE] LgMngr(706a04ae).startInternal
+[2021-08-25 15:24:02,993]{29424}[TRACE] LgMngr(706a04ae).afterStart0: success=true
+[2021-08-25 15:24:02,994]{29424}[TRACE] LgMngr(706a04ae).changeStatus: [STARTING] -> [STARTED]
+[2021-08-25 15:24:02,994]{29424}[TRACE] RoutineHandler(6dc17b83).statusChnaged: mngr=LgMngr, status=STARTED, aborted=false (PREPARE_RTN)
+[2021-08-25 15:24:02,994]{29424}[TRACE] RoutineHandler(6dc17b83).invokeEventMethod: methodName=afterLgMngrStart, success=true (PREPARE_RTN)
+[2021-08-25 15:24:02,994]{29424}[TRACE] RoutineHandler(6dc17b83).afterLgMngrStart: success=true (PREPARE_RTN)
+[2021-08-25 15:24:02,996]{29424}[TRACE] CchMngr(5f683daf).start
+[2021-08-25 15:24:02,996]{29424}[TRACE] CchMngr(5f683daf).changeStatus: [STOPPED] -> [STARTING]
+[2021-08-25 15:24:02,996]{29424}[TRACE] RoutineHandler(6dc17b83).statusChnaged: mngr=CchMngr, status=STARTING, aborted=false (PREPARE_RTN)
+[2021-08-25 15:24:02,996]{29424}[DEBUG] RoutineHandler(6dc17b83).statusChnaged: no suffix (status=STARTING)
+[2021-08-25 15:24:02,996]{29424}[TRACE] CchMngr(5f683daf).startDefault0: currStatus=STOPPED, continuing=true
+[2021-08-25 15:24:02,996]{29424}[TRACE] CchMngr(5f683daf).startScheduler: sche=null
+[2021-08-25 15:24:02,997]{29424}[TRACE] CchMngr(5f683daf).scheduleDailyJob: jobClass=CacheCleanJob, hourOfDay=0, minOfHour=1
+[2021-08-25 15:24:02,998]{29424}[TRACE] CchMngr(5f683daf).startInternal
+[2021-08-25 15:24:02,999]{29424}[TRACE] CchMngr(5f683daf).afterStart0: success=true
+[2021-08-25 15:24:02,999]{29424}[TRACE] CchMngr(5f683daf).changeStatus: [STARTING] -> [STARTED]
+[2021-08-25 15:24:02,999]{29424}[TRACE] RoutineHandler(6dc17b83).statusChnaged: mngr=CchMngr, status=STARTED, aborted=false (PREPARE_RTN)
+[2021-08-25 15:24:02,999]{29424}[TRACE] RoutineHandler(6dc17b83).invokeEventMethod: methodName=afterCchMngrStart, success=true (PREPARE_RTN)
+[2021-08-25 15:24:02,999]{29424}[TRACE] RoutineHandler(6dc17b83).afterCchMngrStart: success=true (PREPARE_RTN)
+[2021-08-25 15:24:02,999]{29424}[DEBUG] ==> Agent prepared.
+[2021-08-25 15:24:03,004]{29424}[INFO ] Agent INFO ->
+Agent Version: [3.1.0-N]
+Config Encrypt Func: [Y]
+Agent Local Port: [12999]
+Monitor Local Port: [12998]
+Send/Recv Buffer Size: [8192/8192]
+Java Max Mem: [1024m]
+TQ Factor: [400]
+Attach Worker Num: [10]
+No Dupl Msg Func: [N]
+Use Dual Mas: [N]
+User: [ymstest3][ymstest3]
+Send Func: [SMS=Y, VMS=Y, FMS=Y, MMS=Y]
+Recv Func: [SMS_MO=Y, FMS_MO=Y]
+No Send: [N]
+Agent Reserve Func: [Y]
+Ping Period: [30sec (Exceed Limit : 3 cnt)]
+Use Stat: [N]
+Convert Timeout: [30min]
+Use Debug Log: [Y]
+Use Message Log: [Y]
+Log Table Type: [F]
+OS Name: [Windows 10]
+JVM: [AdoptOpenJDK / 11.0.10+9 / 64]
+DB Type: [maria]
+DB Charset: [UTF-8|UTF-8]
+Max DB Conn: [10]
+Query Timeout: [30sec]
+Use Fetch TX: [Y]
+AttachSizeLimit: [1024KB]
+NoLimitSendDate: [N]
+OS Name: [Windows 10]
+OS Version: [10.0]
+OS Arch: [amd64]
+Java Version: [11.0.10]
+Java Version2: [11.0.10+9]
+Java Vendor: [AdoptOpenJDK]
+VM Name: [OpenJDK 64-Bit Server VM]
+VM Info: [mixed mode]
+Java Data Model: [64]
+Java Home: [C:\Program Files\AdoptOpenJDK\jdk-11.0.10.9-hotspot]
+Encoding: [UTF-8]
+Encoding2: [MS949]
+User Name: [TOORU]
+Language: [ko]
+Country: [KR]
+[2021-08-25 15:24:03,004]{29424}[TRACE] RoutineHandler(6dc17b83).startRoutine: newRoutine=START_RTN (current routine=PREPARE_RTN)
+[2021-08-25 15:24:03,004]{29424}[TRACE] DsMngr(2892dae4).start
+[2021-08-25 15:24:03,004]{29424}[TRACE] DsMngr(2892dae4).changeStatus: [STOPPED] -> [STARTING]
+[2021-08-25 15:24:03,004]{29424}[TRACE] RoutineHandler(6dc17b83).statusChnaged: mngr=DsMngr, status=STARTING, aborted=false (START_RTN)
+[2021-08-25 15:24:03,004]{29424}[DEBUG] RoutineHandler(6dc17b83).statusChnaged: no suffix (status=STARTING)
+[2021-08-25 15:24:03,004]{29424}[TRACE] DsMngr(2892dae4).startDefault0: currStatus=STOPPED, continuing=true
+[2021-08-25 15:24:03,004]{29424}[TRACE] DsMngr(2892dae4).startInternal
+[2021-08-25 15:24:03,005]{29424}[DEBUG] AgentExe(4667ae56).startAgent-2
+[2021-08-25 15:24:03,005]{29424}[DEBUG] AgentExe(4667ae56).listen: listening on port 12999...
+[2021-08-25 15:24:03,136]{29424}[INFO ] {agntDs}-DB Product Name=[MySQL], DB Product Version=[10.6.0-MariaDB], Driver Name=[MariaDB connector/J], Driver Version=[1.7.4]
+[2021-08-25 15:24:03,139]{29424}[DEBUG] {agntDs}-DB Test Query : [select * from SDK_SMS_SEND where MSG_ID = 0 ]
+[2021-08-25 15:24:03,147]{29424}[INFO ] {agntDs}-DB test success.
+[2021-08-25 15:24:03,155]{29424}[TRACE] DsMngr(2892dae4).afterStart0: success=true
+[2021-08-25 15:24:03,155]{29424}[TRACE] DsMngr(2892dae4).changeStatus: [STARTING] -> [STARTED]
+[2021-08-25 15:24:03,155]{29424}[TRACE] RoutineHandler(6dc17b83).statusChnaged: mngr=DsMngr, status=STARTED, aborted=false (START_RTN)
+[2021-08-25 15:24:03,155]{29424}[TRACE] RoutineHandler(6dc17b83).invokeEventMethod: methodName=afterDsMngrStart, success=true (START_RTN)
+[2021-08-25 15:24:03,155]{29424}[TRACE] RoutineHandler(6dc17b83).afterDsMngrStart: success=true (START_RTN)
+[2021-08-25 15:24:03,158]{29424}[INFO ] Agent Time=[2021-08-25 15:24:03]
+[2021-08-25 15:24:03,158]{29424}[INFO ] DB    Time=[2021-08-25 15:24:03]
+[2021-08-25 15:24:03,171]{29424}[DEBUG] 1-[sal=1, sml=0, rml=0, rdml=0]
+[2021-08-25 15:24:03,187]{29424}[DEBUG] 2-[sal=1, sml=0, rml=0, rdml=0]
+[2021-08-25 15:24:03,206]{29424}[DEBUG] 3-[sal=1, sml=0, rml=0, rdml=0]
+[2021-08-25 15:24:03,222]{29424}[DEBUG] 4-[sal=1, sml=0, rml=0, rdml=0]
+[2021-08-25 15:24:03,226]{29424}[TRACE] QuMngr(28c4127b).start
+[2021-08-25 15:24:03,226]{29424}[TRACE] QuMngr(28c4127b).changeStatus: [STOPPED] -> [STARTING]
+[2021-08-25 15:24:03,226]{29424}[TRACE] RoutineHandler(6dc17b83).statusChnaged: mngr=QuMngr, status=STARTING, aborted=false (START_RTN)
+[2021-08-25 15:24:03,226]{29424}[DEBUG] RoutineHandler(6dc17b83).statusChnaged: no suffix (status=STARTING)
+[2021-08-25 15:24:03,226]{29424}[TRACE] QuMngr(28c4127b).startDefault0: currStatus=STOPPED, continuing=true
+[2021-08-25 15:24:03,250]{29424}[TRACE] QuMngr(28c4127b).startInternal
+[2021-08-25 15:24:03,254]{29424}[TRACE] QuMngr(28c4127b).afterStart0: success=true
+[2021-08-25 15:24:03,254]{29424}[TRACE] QuMngr(28c4127b).changeStatus: [STARTING] -> [STARTED]
+[2021-08-25 15:24:03,254]{29424}[TRACE] RoutineHandler(6dc17b83).statusChnaged: mngr=QuMngr, status=STARTED, aborted=false (START_RTN)
+[2021-08-25 15:24:03,254]{29424}[TRACE] RoutineHandler(6dc17b83).invokeEventMethod: methodName=afterQuMngrStart, success=true (START_RTN)
+[2021-08-25 15:24:03,254]{29424}[TRACE] RoutineHandler(6dc17b83).afterQuMngrStart: success=true (START_RTN)
+[2021-08-25 15:24:03,254]{29424}[TRACE] SsMngr(306cf3ea).start
+[2021-08-25 15:24:03,254]{29424}[TRACE] SsMngr(306cf3ea).changeStatus: [STOPPED] -> [STARTING]
+[2021-08-25 15:24:03,254]{29424}[TRACE] RoutineHandler(6dc17b83).statusChnaged: mngr=SsMngr, status=STARTING, aborted=false (START_RTN)
+[2021-08-25 15:24:03,254]{29424}[DEBUG] RoutineHandler(6dc17b83).statusChnaged: no suffix (status=STARTING)
+[2021-08-25 15:24:03,254]{29424}[TRACE] SsMngr(306cf3ea).startDefault: currStatus=STOPPED, continuing=true
+[2021-08-25 15:24:03,254]{29424}[DEBUG] SsMngr(306cf3ea).prepareSession: masErrorCodeSet=[res_storage:52, res_send_message_all:1, req_report:1]
+[2021-08-25 15:24:03,255]{29424}[TRACE] SsMngr(306cf3ea).startInternal
+[2021-08-25 15:24:03,255]{29424}[INFO ] Server connecting...
+[2021-08-25 15:24:03,261]{34184}[DEBUG] ~~~~~~~~~~~~~~~ connectSocketWithTimeout: timeout=2500, spent=2
+[2021-08-25 15:24:03,262]{29424}[DEBUG] handleConnection: command=[status]
+[2021-08-25 15:24:03,276]{34184}[DEBUG] [0] checkAgentState: SERVER_CONNECTING-(Server Connecting...){ex:null}
+[2021-08-25 15:24:03,429]{29424}[INFO ] [0]Server connection info: [210.105.195.152:80]
+[2021-08-25 15:24:03,429]{29424}[TRACE] SsMngr(306cf3ea).changeCompleted: after 'checkCompletedsForActive': userIndex=0, completed=false, oldActiveUserIndex=-1, newActiveUserIndex=-1
+[2021-08-25 15:24:03,458]{29424}[DEBUG] AsynchSocketThread(514fa4ec)[0]: isConnectionPending_true
+[2021-08-25 15:24:03,458]{29424}[INFO ] AsynchSocketThread(514fa4ec)[0]: Server connected.
+[2021-08-25 15:24:03,459]{29424}[INFO ] AsynchSocketThread(514fa4ec)[0]: 1-SendBufferSize=65536, ReceiveBufferSize=65536 / writeNormBuf=8197, readBuf=8197 (timeout=0)
+[2021-08-25 15:24:03,459]{29424}[INFO ] AsynchSocketThread(514fa4ec)[0]: 2-SendBufferSize=8197, ReceiveBufferSize=8197 / writeNormBuf=8197, readBuf=8197 (timeout=0)
+[2021-08-25 15:24:03,459]{29424}[TRACE] AsynchSocketThread(514fa4ec)[0]: doWhenConnected
+[2021-08-25 15:24:03,459]{29424}[DEBUG] SsMngr(306cf3ea)(dui=0): whenConnected
+[2021-08-25 15:24:03,464]{29424}[DEBUG] AsynchSocketThread(514fa4ec)[0]: 1-getTcpNoDelay=false
+[2021-08-25 15:24:03,464]{29424}[DEBUG] AsynchSocketThread(514fa4ec)[0]: 2-getTcpNoDelay=true
+[2021-08-25 15:24:03,465]{29424}[DEBUG] AsynchSocketThread(514fa4ec)[0]: wroteLen=123
+[2021-08-25 15:24:03,484]{29424}[DEBUG] AsynchSocketThread(514fa4ec)[0]: redLen=125
+[2021-08-25 15:24:03,548]{29424}[DEBUG] SsMngr(306cf3ea)(dui=0): afterAuth: authRes result=0
+[2021-08-25 15:24:03,550]{29424}[ERROR] Certifying userID fail, Agent stopping...
+java.io.FileNotFoundException: Cannot find Cert file : C:\Users\TOORU\STUDY\CLOUD_COMPUTING\mcs_agent_3.1.0\McsAgent\file\auth\ymstest3.cert
+	at agnt.main.AuthUtil.getAuth(AuthUtil.java:117)
+	at agnt.dt.DtUtil.makeRegistReq(DtUtil.java:420)
+	at agnt.dt.DtUtil.offerRegistReq(DtUtil.java:417)
+	at agnt.ss.SsMngr.afterAuth(SsMngr.java:266)
+	at agnt.dt.vo.msp.AuthResE.processAfterRecv(AuthResE.java:28)
+	at agnt.qu.qnqw.ReadQW.parseAndEnqueue(ReadQW.java:144)
+	at agnt.qu.qnqw.ReadQW.processItem(ReadQW.java:81)
+	at agnt.qu.qnqw.ReadQW.processItem(ReadQW.java:1)
+	at agnt.qu.base.SingleItemQueueWorker.processQueue(SingleItemQueueWorker.java:23)
+	at agnt.qu.base.ItemQueueWorker.run(ItemQueueWorker.java:86)
+[2021-08-25 15:24:04,292]{34184}[DEBUG] ~~~~~~~~~~~~~~~ connectSocketWithTimeout: timeout=2500, spent=2
+[2021-08-25 15:24:04,294]{29424}[DEBUG] handleConnection: command=[status]
+[2021-08-25 15:24:04,297]{34184}[DEBUG] [1] checkAgentState: SERVER_CONNECTING-(Server Connecting...){ex:null}
+[2021-08-25 15:24:05,312]{34184}[DEBUG] ~~~~~~~~~~~~~~~ connectSocketWithTimeout: timeout=2500, spent=1
+[2021-08-25 15:24:05,313]{29424}[DEBUG] handleConnection: command=[status]
+[2021-08-25 15:24:05,316]{34184}[DEBUG] [2] checkAgentState: SERVER_CONNECTING-(Server Connecting...){ex:null}
+[2021-08-25 15:24:05,586]{29424}[TRACE] startMonitorExe: spent=2035
+sendCommandToListener-0 (0)
+sendCommandToListener-9 (2035)
+
+[2021-08-25 15:24:05,586]{29424}[DEBUG] stopMonitorExe: response=NONE-(){ex:java.net.ConnectException: Connection refused: connect}
+[2021-08-25 15:24:05,586]{29424}[TRACE] AgentMain(52e6fdee).changeStatus: [STARTING] -> [STOPPING]
+[2021-08-25 15:24:05,586]{29424}[TRACE] RoutineHandler(6dc17b83).startRoutine: newRoutine=STOP_RTN (current routine=START_RTN)
+[2021-08-25 15:24:05,590]{29424}[TRACE] FtchMngr(778cb50a).stop
+[2021-08-25 15:24:05,590]{29424}[TRACE] FtchMngr(778cb50a).changeStatus: [STOPPED] -> [STOPPED]
+[2021-08-25 15:24:05,590]{29424}[TRACE] RoutineHandler(6dc17b83).statusChnaged: mngr=FtchMngr, status=STOPPED, aborted=false (STOP_RTN)
+[2021-08-25 15:24:05,590]{29424}[TRACE] RoutineHandler(6dc17b83).invokeEventMethod: methodName=afterFtchMngrStop, success=true (STOP_RTN)
+[2021-08-25 15:24:05,590]{29424}[TRACE] RoutineHandler(6dc17b83).afterFtchMngrStop: success=true (STOP_RTN)
+[2021-08-25 15:24:05,590]{29424}[TRACE] QuMngr(28c4127b).stop
+[2021-08-25 15:24:05,590]{29424}[TRACE] QuMngr(28c4127b).changeStatus: [STARTED] -> [STOPPING]
+[2021-08-25 15:24:05,590]{29424}[TRACE] RoutineHandler(6dc17b83).statusChnaged: mngr=QuMngr, status=STOPPING, aborted=false (STOP_RTN)
+[2021-08-25 15:24:05,591]{29424}[DEBUG] RoutineHandler(6dc17b83).statusChnaged: no suffix (status=STOPPING)
+[2021-08-25 15:24:05,591]{29424}[TRACE] QuMngr(28c4127b).stopDefault0: currStatus=STARTED, continuing=true
+[2021-08-25 15:24:05,591]{29424}[TRACE] QuMngr(28c4127b).stopInternal
+[2021-08-25 15:24:05,592]{29424}[DEBUG] RequestQW(321a9ff1).stop: before join..
+[2021-08-25 15:24:05,592]{29424}[DEBUG] RequestQW(321a9ff1).stop: join end.
+[2021-08-25 15:24:05,592]{29424}[DEBUG] DownloadQW(17dcdf32).stop: before join..
+[2021-08-25 15:24:05,593]{29424}[DEBUG] DownloadQW(17dcdf32).stop: join end.
+[2021-08-25 15:24:05,593]{29424}[DEBUG] DownloadQW(389a5a49).stop: before join..
+[2021-08-25 15:24:05,593]{29424}[DEBUG] DownloadQW(389a5a49).stop: join end.
+[2021-08-25 15:24:05,593]{29424}[DEBUG] DownloadQW(1a4d0ee).stop: before join..
+[2021-08-25 15:24:05,593]{29424}[DEBUG] DownloadQW(1a4d0ee).stop: join end.
+[2021-08-25 15:24:05,594]{29424}[DEBUG] DownloadQW(41cb3236).stop: before join..
+[2021-08-25 15:24:05,594]{29424}[DEBUG] DownloadQW(41cb3236).stop: join end.
+[2021-08-25 15:24:05,594]{29424}[DEBUG] DownloadQW(309f4072).stop: before join..
+[2021-08-25 15:24:05,594]{29424}[DEBUG] DownloadQW(309f4072).stop: join end.
+[2021-08-25 15:24:05,595]{29424}[DEBUG] DownloadQW(5abd0c3a).stop: before join..
+[2021-08-25 15:24:05,595]{29424}[DEBUG] DownloadQW(5abd0c3a).stop: join end.
+[2021-08-25 15:24:05,595]{29424}[DEBUG] DownloadQW(7d399423).stop: before join..
+[2021-08-25 15:24:05,596]{29424}[DEBUG] DownloadQW(7d399423).stop: join end.
+[2021-08-25 15:24:05,596]{29424}[DEBUG] DownloadQW(65fb4330).stop: before join..
+[2021-08-25 15:24:05,596]{29424}[DEBUG] DownloadQW(65fb4330).stop: join end.
+[2021-08-25 15:24:05,596]{29424}[DEBUG] DownloadQW(2f2d132d).stop: before join..
+[2021-08-25 15:24:05,596]{29424}[DEBUG] DownloadQW(2f2d132d).stop: join end.
+[2021-08-25 15:24:05,596]{29424}[DEBUG] DownloadQW(1dc3062e).stop: before join..
+[2021-08-25 15:24:05,597]{29424}[DEBUG] DownloadQW(1dc3062e).stop: join end.
+[2021-08-25 15:24:05,598]{29424}[DEBUG] Report1QW(48bde1c4).stop: before join..
+[2021-08-25 15:24:05,598]{29424}[DEBUG] Report1QW(48bde1c4).stop: join end.
+[2021-08-25 15:24:05,598]{29424}[DEBUG] RequestQW(611ce774).stop: before join..
+[2021-08-25 15:24:05,599]{29424}[DEBUG] RequestQW(611ce774).stop: join end.
+[2021-08-25 15:24:05,599]{29424}[DEBUG] Arrive1QW3(71f1571).stop: before join..
+[2021-08-25 15:24:05,599]{29424}[DEBUG] Arrive1QW3(71f1571).stop: join end.
+[2021-08-25 15:24:05,600]{29424}[DEBUG] ReadQW(62320a7d).stop: before join..
+[2021-08-25 15:24:05,600]{29424}[DEBUG] ReadQW(62320a7d).stop: join end.
+[2021-08-25 15:24:05,601]{29424}[DEBUG] ReadQW(3c5e0da2).stop: before join..
+[2021-08-25 15:24:05,601]{29424}[DEBUG] ReadQW(3c5e0da2).stop: join end.
+[2021-08-25 15:24:05,601]{29424}[DEBUG] AttachQW(675de3c3).stop: before join..
+[2021-08-25 15:24:05,602]{29424}[DEBUG] AttachQW(675de3c3).stop: join end.
+[2021-08-25 15:24:05,602]{29424}[DEBUG] AttachQW(3aa9f0ff).stop: before join..
+[2021-08-25 15:24:05,602]{29424}[DEBUG] AttachQW(3aa9f0ff).stop: join end.
+[2021-08-25 15:24:05,602]{29424}[DEBUG] AttachQW(3b31f4e8).stop: before join..
+[2021-08-25 15:24:05,602]{29424}[DEBUG] AttachQW(3b31f4e8).stop: join end.
+[2021-08-25 15:24:05,603]{29424}[DEBUG] AttachQW(3bcb2675).stop: before join..
+[2021-08-25 15:24:05,603]{29424}[DEBUG] AttachQW(3bcb2675).stop: join end.
+[2021-08-25 15:24:05,603]{29424}[DEBUG] AttachQW(33809934).stop: before join..
+[2021-08-25 15:24:05,603]{29424}[DEBUG] AttachQW(33809934).stop: join end.
+[2021-08-25 15:24:05,604]{29424}[DEBUG] AttachQW(46dbb9b3).stop: before join..
+[2021-08-25 15:24:05,604]{29424}[DEBUG] AttachQW(46dbb9b3).stop: join end.
+[2021-08-25 15:24:05,604]{29424}[DEBUG] AttachQW(72799334).stop: before join..
+[2021-08-25 15:24:05,604]{29424}[DEBUG] AttachQW(72799334).stop: join end.
+[2021-08-25 15:24:05,604]{29424}[DEBUG] AttachQW(10e3eb80).stop: before join..
+[2021-08-25 15:24:05,605]{29424}[DEBUG] AttachQW(10e3eb80).stop: join end.
+[2021-08-25 15:24:05,605]{29424}[DEBUG] AttachQW(279d9991).stop: before join..
+[2021-08-25 15:24:05,605]{29424}[DEBUG] AttachQW(279d9991).stop: join end.
+[2021-08-25 15:24:05,605]{29424}[DEBUG] AttachQW(3c10aaf0).stop: before join..
+[2021-08-25 15:24:05,605]{29424}[DEBUG] AttachQW(3c10aaf0).stop: join end.
+[2021-08-25 15:24:05,606]{29424}[DEBUG] Report1QW(3582de5).stop: before join..
+[2021-08-25 15:24:05,606]{29424}[DEBUG] Report1QW(3582de5).stop: join end.
+[2021-08-25 15:24:05,607]{29424}[DEBUG] RequestQW(5f36e109).stop: before join..
+[2021-08-25 15:24:05,607]{29424}[DEBUG] RequestQW(5f36e109).stop: join end.
+[2021-08-25 15:24:05,608]{29424}[DEBUG] RequestQW(71f30445).stop: before join..
+[2021-08-25 15:24:05,608]{29424}[DEBUG] RequestQW(71f30445).stop: join end.
+[2021-08-25 15:24:05,609]{29424}[DEBUG] Report1QW(48ddfdde).stop: before join..
+[2021-08-25 15:24:05,609]{29424}[DEBUG] Report1QW(48ddfdde).stop: join end.
+[2021-08-25 15:24:05,609]{29424}[DEBUG] RecvQW(4d7015e).stop: before join..
+[2021-08-25 15:24:05,610]{29424}[DEBUG] RecvQW(4d7015e).stop: join end.
+[2021-08-25 15:24:05,610]{29424}[DEBUG] Arrive1QW1(793071b5).stop: before join..
+[2021-08-25 15:24:05,610]{29424}[DEBUG] Arrive1QW1(793071b5).stop: join end.
+[2021-08-25 15:24:05,611]{29424}[DEBUG] Report1QW(4688c584).stop: before join..
+[2021-08-25 15:24:05,611]{29424}[DEBUG] Report1QW(4688c584).stop: join end.
+[2021-08-25 15:24:05,611]{29424}[TRACE] QuMngr(28c4127b).afterStop0: success=true
+[2021-08-25 15:24:05,611]{29424}[TRACE] QuMngr(28c4127b).changeStatus: [STOPPING] -> [STOPPED]
+[2021-08-25 15:24:05,611]{29424}[TRACE] RoutineHandler(6dc17b83).statusChnaged: mngr=QuMngr, status=STOPPED, aborted=false (STOP_RTN)
+[2021-08-25 15:24:05,612]{29424}[TRACE] RoutineHandler(6dc17b83).invokeEventMethod: methodName=afterQuMngrStop, success=true (STOP_RTN)
+[2021-08-25 15:24:05,612]{29424}[TRACE] RoutineHandler(6dc17b83).afterQuMngrStop: success=true (STOP_RTN)
+[2021-08-25 15:24:05,613]{29424}[TRACE] PngMngr(3d98878c).stop
+[2021-08-25 15:24:05,614]{29424}[TRACE] PngMngr(3d98878c).changeStatus: [STOPPED] -> [STOPPED]
+[2021-08-25 15:24:05,614]{29424}[TRACE] RoutineHandler(6dc17b83).statusChnaged: mngr=PngMngr, status=STOPPED, aborted=false (STOP_RTN)
+[2021-08-25 15:24:05,614]{29424}[TRACE] RoutineHandler(6dc17b83).invokeEventMethod: methodName=afterPngMngrStop, success=true (STOP_RTN)
+[2021-08-25 15:24:05,614]{29424}[TRACE] RoutineHandler(6dc17b83).afterPngMngrStop: success=true (STOP_RTN)
+[2021-08-25 15:24:05,614]{29424}[TRACE] SsMngr(306cf3ea).stop
+[2021-08-25 15:24:05,614]{29424}[TRACE] SsMngr(306cf3ea).changeStatus: [STARTING] -> [STOPPING]
+[2021-08-25 15:24:05,614]{29424}[TRACE] RoutineHandler(6dc17b83).statusChnaged: mngr=SsMngr, status=STOPPING, aborted=false (STOP_RTN)
+[2021-08-25 15:24:05,614]{29424}[DEBUG] RoutineHandler(6dc17b83).statusChnaged: no suffix (status=STOPPING)
+[2021-08-25 15:24:05,615]{29424}[TRACE] SsMngr(306cf3ea).stopDefault0: currStatus=STARTING, continuing=true
+[2021-08-25 15:24:05,615]{29424}[TRACE] SsMngr(306cf3ea).stopInternal
+[2021-08-25 15:24:05,616]{29424}[TRACE] SsMngr(306cf3ea).afterStop0: success=true
+[2021-08-25 15:24:05,616]{29424}[TRACE] SsMngr(306cf3ea).changeStatus: [STOPPING] -> [STOPPED]
+[2021-08-25 15:24:05,616]{29424}[TRACE] RoutineHandler(6dc17b83).statusChnaged: mngr=SsMngr, status=STOPPED, aborted=false (STOP_RTN)
+[2021-08-25 15:24:05,616]{29424}[TRACE] RoutineHandler(6dc17b83).invokeEventMethod: methodName=afterSsMngrStop, success=true (STOP_RTN)
+[2021-08-25 15:24:05,617]{29424}[TRACE] RoutineHandler(6dc17b83).afterSsMngrStop: success=true (STOP_RTN)
+[2021-08-25 15:24:05,617]{29424}[TRACE] DsMngr(2892dae4).stop
+[2021-08-25 15:24:05,617]{29424}[TRACE] DsMngr(2892dae4).changeStatus: [STARTED] -> [STOPPING]
+[2021-08-25 15:24:05,617]{29424}[TRACE] RoutineHandler(6dc17b83).statusChnaged: mngr=DsMngr, status=STOPPING, aborted=false (STOP_RTN)
+[2021-08-25 15:24:05,617]{29424}[DEBUG] RoutineHandler(6dc17b83).statusChnaged: no suffix (status=STOPPING)
+[2021-08-25 15:24:05,617]{29424}[TRACE] DsMngr(2892dae4).stopDefault0: currStatus=STARTED, continuing=true
+[2021-08-25 15:24:05,617]{29424}[TRACE] DsMngr(2892dae4).stopInternal
+[2021-08-25 15:24:05,617]{29424}[ERROR] RoutineHandler(6dc17b83).invokeEventMethod(afterSsMngrStop)
+java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at agnt.main.rtn.RoutineHandler.invokeHandleMethod(RoutineHandler.java:398)
+	at agnt.main.rtn.RoutineHandler.statusChnaged(RoutineHandler.java:386)
+	at agnt.main.rtn.JobMngr.changeStatus(JobMngr.java:101)
+	at agnt.main.rtn.JobMngr.afterStop(JobMngr.java:207)
+	at agnt.ss.SsMngr.afterDisconnect(SsMngr.java:173)
+	at agnt.ss.SsMngr.disconnect(SsMngr.java:160)
+	at agnt.ss.SsMngr.stopInternal(SsMngr.java:78)
+	at agnt.main.rtn.JobMngr.stop(JobMngr.java:54)
+	at agnt.main.rtn.RoutineHandler.afterPngMngrStop(RoutineHandler.java:235)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at agnt.main.rtn.RoutineHandler.invokeHandleMethod(RoutineHandler.java:398)
+	at agnt.main.rtn.RoutineHandler.statusChnaged(RoutineHandler.java:386)
+	at agnt.main.rtn.JobMngr.changeStatus(JobMngr.java:101)
+	at agnt.main.rtn.JobMngr.stopDefault(JobMngr.java:136)
+	at agnt.main.rtn.SchedJobMngr.stop(SchedJobMngr.java:71)
+	at agnt.main.rtn.RoutineHandler.afterQuMngrStop(RoutineHandler.java:224)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at agnt.main.rtn.RoutineHandler.invokeHandleMethod(RoutineHandler.java:398)
+	at agnt.main.rtn.RoutineHandler.statusChnaged(RoutineHandler.java:386)
+	at agnt.main.rtn.JobMngr.changeStatus(JobMngr.java:101)
+	at agnt.main.rtn.JobMngr.afterStop(JobMngr.java:207)
+	at agnt.qu.QuMngr.stopInternal(QuMngr.java:66)
+	at agnt.main.rtn.JobMngr.stop(JobMngr.java:54)
+	at agnt.main.rtn.RoutineHandler.afterFtchMngrStop(RoutineHandler.java:213)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at agnt.main.rtn.RoutineHandler.invokeHandleMethod(RoutineHandler.java:398)
+	at agnt.main.rtn.RoutineHandler.statusChnaged(RoutineHandler.java:386)
+	at agnt.main.rtn.JobMngr.changeStatus(JobMngr.java:101)
+	at agnt.main.rtn.JobMngr.stopDefault(JobMngr.java:136)
+	at agnt.main.rtn.SchedJobMngr.stop(SchedJobMngr.java:71)
+	at agnt.main.rtn.RoutineHandler.start(RoutineHandler.java:75)
+	at agnt.main.rtn.RoutineHandler.startRoutine(RoutineHandler.java:60)
+	at agnt.main.AgentMain.beginStopRoutine(AgentMain.java:206)
+	at agnt.main.AgentMain.stop(AgentMain.java:91)
+	at agnt.ss.SsMngr.afterAuth(SsMngr.java:277)
+	at agnt.dt.vo.msp.AuthResE.processAfterRecv(AuthResE.java:28)
+	at agnt.qu.qnqw.ReadQW.parseAndEnqueue(ReadQW.java:144)
+	at agnt.qu.qnqw.ReadQW.processItem(ReadQW.java:81)
+	at agnt.qu.qnqw.ReadQW.processItem(ReadQW.java:1)
+	at agnt.qu.base.SingleItemQueueWorker.processQueue(SingleItemQueueWorker.java:23)
+	at agnt.qu.base.ItemQueueWorker.run(ItemQueueWorker.java:86)
+Caused by: java.lang.NoSuchMethodError: 'void com.zaxxer.hikari.HikariDataSource.shutdown()'
+	at agnt.ds.han.HanDataSource.shutdown(HanDataSource.java:30)
+	at agnt.ds.DsMngr.releaseHikariCP(DsMngr.java:287)
+	at agnt.ds.DsMngr.releaseDataSource(DsMngr.java:172)
+	at agnt.ds.DsMngr.disconnect(DsMngr.java:123)
+	at agnt.ds.DsMngr.stopInternal(DsMngr.java:58)
+	at agnt.main.rtn.JobMngr.stop(JobMngr.java:54)
+	at agnt.main.rtn.RoutineHandler.afterSsMngrStop(RoutineHandler.java:246)
+	... 54 more
+[2021-08-25 15:24:05,621]{29424}[DEBUG] SsMngr(306cf3ea)(dui=0): closing session...(0)
+[2021-08-25 15:24:05,632]{29424}[INFO ] AsynchSocketThread(514fa4ec)[0]: Server disconnected.
+[2021-08-25 15:24:05,635]{29424}[DEBUG] AsynchSocketThread(514fa4ec)[0]: doWhenDisconnected
+[2021-08-25 15:24:06,132]{29424}[TRACE] PngMngr(3d98878c).stopDefault0: currStatus=STOPPED, continuing=false
+[2021-08-25 15:24:06,132]{29424}[TRACE] FtchMngr(778cb50a).stopDefault0: currStatus=STOPPED, continuing=false
+[2021-08-25 15:24:06,132]{29424}[TRACE] SsMngr(306cf3ea)(dui=0): whenDisconnected: retryDelaySec=0
+[2021-08-25 15:24:06,133]{29424}[TRACE] SsMngr(306cf3ea).changeCompleted: after 'checkCompletedsForActive': userIndex=0, completed=false, oldActiveUserIndex=-1, newActiveUserIndex=-1
+[2021-08-25 15:24:06,331]{34184}[DEBUG] ~~~~~~~~~~~~~~~ connectSocketWithTimeout: timeout=2500, spent=3
+[2021-08-25 15:24:06,332]{29424}[DEBUG] handleConnection: command=[status]
+[2021-08-25 15:24:06,334]{34184}[DEBUG] [3] checkAgentState: STOPPING-(Agent stopping...){ex:null}
+[2021-08-25 15:24:07,344]{34184}[DEBUG] ~~~~~~~~~~~~~~~ connectSocketWithTimeout: timeout=2500, spent=1
+[2021-08-25 15:24:07,345]{29424}[DEBUG] handleConnection: command=[status]
+[2021-08-25 15:24:07,348]{34184}[DEBUG] [4] checkAgentState: STOPPING-(Agent stopping...){ex:null}
+[2021-08-25 15:24:08,363]{34184}[DEBUG] ~~~~~~~~~~~~~~~ connectSocketWithTimeout: timeout=2500, spent=1
+[2021-08-25 15:24:08,365]{29424}[DEBUG] handleConnection: command=[status]
+[2021-08-25 15:24:08,368]{34184}[DEBUG] [5] checkAgentState: STOPPING-(Agent stopping...){ex:null}
+[2021-08-25 15:25:47,417]{}[INFO ] CfgMngr(64bf3bbf): ConfigFile read ok
+[2021-08-25 15:25:47,423]{18104}[DEBUG] LgMngr(706a04ae).configureLog: log dir is default!
+[2021-08-25 15:25:47,856]{}[INFO ] CfgMngr(6500df86): ConfigFile read ok
+[2021-08-25 15:25:47,862]{31748}[DEBUG] LgMngr(2eda0940).configureLog: log dir is default!
+[2021-08-25 15:25:53,591]{}[INFO ] CfgMngr(64bf3bbf): ConfigFile read ok
+[2021-08-25 15:25:53,598]{22676}[DEBUG] LgMngr(706a04ae).configureLog: log dir is default!
