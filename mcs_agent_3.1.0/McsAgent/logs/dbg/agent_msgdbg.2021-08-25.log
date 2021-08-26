@@ -11,3 +11,648 @@
   <Time>20210825152403</Time>
 </MAS>
 ](len=124)
+[2021-08-25 16:33:04,972]{30948}[DEBUG] [SEND-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="req_auth">
+  <ServiceProviderID>ymstest3</ServiceProviderID>
+</MAS>
+](len=122)
+[2021-08-25 16:33:05,055]{30948}[DEBUG] [RECV-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="res_auth">
+  <Result>0</Result>
+  <Time>20210825163305</Time>
+</MAS>
+](len=124)
+[2021-08-25 16:33:05,087]{30948}[DEBUG] [SEND-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="req_regist">
+  <ServiceProviderID>ymstest3</ServiceProviderID>
+  <EndUserID>ymstest3</EndUserID>
+  <AuthTicket>cz2jAlM3hNYthVaw61ekIIErAg7g3FFrw1DCB6ZvtQ6P3VlnrIvmM042ipjuPzzB7Pb8izoKXOUTDbwcPIltyolTXLEK09InL3Zao54t2Do=</AuthTicket>
+  <AuthKey>741</AuthKey>
+  <UserVersion>Agent</UserVersion>
+  <Version>3.1.0-N</Version>
+</MAS>
+](len=388)
+[2021-08-25 16:33:05,191]{30948}[DEBUG] [RECV-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="res_regist">
+  <Result>0</Result>
+  <SessionID>410169918</SessionID>
+  <SendLimitPerSecond msgType="1">100</SendLimitPerSecond>
+  <SendLimitPerSecond msgType="4">30</SendLimitPerSecond>
+  <ProductStatus msgType="1">Y</ProductStatus>
+  <ProductStatus msgType="2">N</ProductStatus>
+  <ProductStatus msgType="3">N</ProductStatus>
+  <ProductStatus msgType="4">Y</ProductStatus>
+  <SendLimitPerMonth msgType="1">500</SendLimitPerMonth>
+  <SendLimitPerMonth msgType="4">500</SendLimitPerMonth>
+</MAS>
+](len=558)
+[2021-08-25 16:33:05,378]{30948}[DEBUG] [SEND-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="req_send_message_2">
+  <MessageType>1</MessageType>
+  <MessageSubType>1</MessageSubType>
+  <Priority>2</Priority>
+  <MessageClass>1</MessageClass>
+  <StoreLevel>1</StoreLevel>
+  <CallbackNumber>7orTnosTiYsLCUrZvwDVBA==</CallbackNumber>
+  <ReserveType>1</ReserveType>
+  <ReserveTime>20210825144038</ReserveTime>
+  <CustomMessageID>s:1-99-1-2021082514</CustomMessageID>
+<Message>
+  <ReceiveNumber seqNo="1">yNXMZueGv7/5CFO0KsQofw==</ReceiveNumber>
+  <Subject>??????.</Subject>
+  <Content>e4fgE83YcwWCI2kZJ5Ml1Q==</Content>
+</Message>
+</MAS>
+](len=606)
+[2021-08-25 16:33:05,428]{30948}[DEBUG] [SEND-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="req_send_message_2">
+  <MessageType>1</MessageType>
+  <MessageSubType>1</MessageSubType>
+  <Priority>2</Priority>
+  <MessageClass>1</MessageClass>
+  <StoreLevel>1</StoreLevel>
+  <CallbackNumber>7orTnosTiYsLCUrZvwDVBA==</CallbackNumber>
+  <ReserveType>1</ReserveType>
+  <ReserveTime>20210825144016</ReserveTime>
+  <CustomMessageID>s:2-99-1-2021082514</CustomMessageID>
+<Message>
+  <ReceiveNumber seqNo="1">nl+B9vvLc8I+FJEL9zB7Gw==</ReceiveNumber>
+  <Subject>??????.</Subject>
+  <Content>e4fgE83YcwWCI2kZJ5Ml1Q==</Content>
+</Message>
+</MAS>
+](len=606)
+[2021-08-25 16:33:05,435]{30948}[DEBUG] [RECV-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="res_send_message">
+  <Result>0</Result>
+  <Time>20210825163305</Time>
+  <CustomMessageID>s:1-99-1-2021082514</CustomMessageID>
+  <SequenceNumber>1</SequenceNumber>
+  <JobID>104670466605</JobID>
+  <GroupID></GroupID>
+</MAS>
+](len=282)
+[2021-08-25 16:33:05,437]{30948}[DEBUG] [RECV-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="res_send_message_all">
+  <Result>0</Result>
+  <Time>20210825163305</Time>
+  <CustomMessageID>s:1-99-1-2021082514</CustomMessageID>
+  <Count>1</Count>
+  <GroupID></GroupID>
+  <JobID seqNo="1">104670466605</JobID>
+  <SubmitTime>20210825163305</SubmitTime>
+</MAS>
+](len=321)
+[2021-08-25 16:33:05,483]{30948}[DEBUG] [SEND-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="req_send_message_2">
+  <MessageType>1</MessageType>
+  <MessageSubType>1</MessageSubType>
+  <Priority>2</Priority>
+  <MessageClass>1</MessageClass>
+  <StoreLevel>1</StoreLevel>
+  <CallbackNumber>7orTnosTiYsLCUrZvwDVBA==</CallbackNumber>
+  <ReserveType>1</ReserveType>
+  <ReserveTime>20210825144026</ReserveTime>
+  <CustomMessageID>s:3-99-1-2021082514</CustomMessageID>
+<Message>
+  <ReceiveNumber seqNo="1">nl+B9vvLc8I+FJEL9zB7Gw==</ReceiveNumber>
+  <Subject>??????.</Subject>
+  <Content>e4fgE83YcwWCI2kZJ5Ml1Q==</Content>
+</Message>
+</MAS>
+](len=606)
+[2021-08-25 16:33:05,495]{30948}[DEBUG] [RECV-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="res_send_message">
+  <Result>0</Result>
+  <Time>20210825163305</Time>
+  <CustomMessageID>s:2-99-1-2021082514</CustomMessageID>
+  <SequenceNumber>1</SequenceNumber>
+  <JobID>104670466610</JobID>
+  <GroupID></GroupID>
+</MAS>
+](len=282)
+[2021-08-25 16:33:05,497]{30948}[DEBUG] [RECV-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="res_send_message_all">
+  <Result>0</Result>
+  <Time>20210825163305</Time>
+  <CustomMessageID>s:2-99-1-2021082514</CustomMessageID>
+  <Count>1</Count>
+  <GroupID></GroupID>
+  <JobID seqNo="1">104670466610</JobID>
+  <SubmitTime>20210825163305</SubmitTime>
+</MAS>
+](len=321)
+[2021-08-25 16:33:05,499]{30948}[DEBUG] [RECV-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="res_send_message">
+  <Result>0</Result>
+  <Time>20210825163305</Time>
+  <CustomMessageID>s:3-99-1-2021082514</CustomMessageID>
+  <SequenceNumber>1</SequenceNumber>
+  <JobID>104670466617</JobID>
+  <GroupID></GroupID>
+</MAS>
+](len=282)
+[2021-08-25 16:33:05,501]{30948}[DEBUG] [RECV-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="res_send_message_all">
+  <Result>0</Result>
+  <Time>20210825163305</Time>
+  <CustomMessageID>s:3-99-1-2021082514</CustomMessageID>
+  <Count>1</Count>
+  <GroupID></GroupID>
+  <JobID seqNo="1">104670466617</JobID>
+  <SubmitTime>20210825163305</SubmitTime>
+</MAS>
+](len=321)
+[2021-08-25 16:33:05,546]{30948}[DEBUG] [SEND-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="req_send_message_2">
+  <MessageType>1</MessageType>
+  <MessageSubType>1</MessageSubType>
+  <Priority>2</Priority>
+  <MessageClass>1</MessageClass>
+  <StoreLevel>1</StoreLevel>
+  <CallbackNumber>7orTnosTiYsLCUrZvwDVBA==</CallbackNumber>
+  <ReserveType>1</ReserveType>
+  <ReserveTime>20210825144041</ReserveTime>
+  <CustomMessageID>s:4-99-1-2021082514</CustomMessageID>
+<Message>
+  <ReceiveNumber seqNo="1">nl+B9vvLc8I+FJEL9zB7Gw==</ReceiveNumber>
+  <Subject>??????.</Subject>
+  <Content>e4fgE83YcwWCI2kZJ5Ml1Q==</Content>
+</Message>
+</MAS>
+](len=606)
+[2021-08-25 16:33:05,617]{30948}[DEBUG] [RECV-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="res_send_message">
+  <Result>0</Result>
+  <Time>20210825163305</Time>
+  <CustomMessageID>s:4-99-1-2021082514</CustomMessageID>
+  <SequenceNumber>1</SequenceNumber>
+  <JobID>104670466621</JobID>
+  <GroupID></GroupID>
+</MAS>
+](len=282)
+[2021-08-25 16:33:05,619]{30948}[DEBUG] [RECV-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="res_send_message_all">
+  <Result>0</Result>
+  <Time>20210825163305</Time>
+  <CustomMessageID>s:4-99-1-2021082514</CustomMessageID>
+  <Count>1</Count>
+  <GroupID></GroupID>
+  <JobID seqNo="1">104670466621</JobID>
+  <SubmitTime>20210825163305</SubmitTime>
+</MAS>
+](len=321)
+[2021-08-25 16:33:05,799]{30948}[DEBUG] [RECV-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="req_report">
+  <ServiceProviderID>ymstest3</ServiceProviderID>
+  <EndUserID>ymstest3</EndUserID>
+  <Result>0</Result>
+  <Time>20210825163305</Time>
+  <CustomMessageID>s:2-99-1-2021082514</CustomMessageID>
+  <JobID>104670466610</JobID>
+  <GroupID></GroupID>
+  <SequenceNumber>1</SequenceNumber>
+  <MessageType>1</MessageType>
+  <SendNumber></SendNumber>
+  <ReceiveNumber>nl+B9vvLc8I+FJEL9zB7Gw==</ReceiveNumber>
+  <CallbackNumber>7orTnosTiYsLCUrZvwDVBA==</CallbackNumber>
+  <TelcoInfo>1</TelcoInfo>
+  <Fee>14</Fee>
+  <SubmitTime>20210825163305</SubmitTime>
+  <StatusText></StatusText>
+</MAS>
+](len=660)
+[2021-08-25 16:33:05,951]{30948}[DEBUG] [SEND-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="res_report">
+  <Result>0</Result>
+  <JobID>104670466610</JobID>
+</MAS>
+](len=126)
+[2021-08-25 16:33:06,468]{30948}[DEBUG] [RECV-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="req_report">
+  <ServiceProviderID>ymstest3</ServiceProviderID>
+  <EndUserID>ymstest3</EndUserID>
+  <Result>0</Result>
+  <Time>20210825163302</Time>
+  <CustomMessageID>s:4-99-1-2021082514</CustomMessageID>
+  <JobID>104670466621</JobID>
+  <GroupID></GroupID>
+  <SequenceNumber>1</SequenceNumber>
+  <MessageType>1</MessageType>
+  <SendNumber></SendNumber>
+  <ReceiveNumber>nl+B9vvLc8I+FJEL9zB7Gw==</ReceiveNumber>
+  <CallbackNumber>7orTnosTiYsLCUrZvwDVBA==</CallbackNumber>
+  <TelcoInfo>1</TelcoInfo>
+  <Fee>14</Fee>
+  <SubmitTime>20210825163305</SubmitTime>
+  <StatusText></StatusText>
+</MAS>
+](len=660)
+[2021-08-25 16:33:06,607]{30948}[DEBUG] [SEND-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="res_report">
+  <Result>0</Result>
+  <JobID>104670466621</JobID>
+</MAS>
+](len=126)
+[2021-08-25 16:33:06,835]{30948}[DEBUG] [RECV-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="req_report">
+  <ServiceProviderID>ymstest3</ServiceProviderID>
+  <EndUserID>ymstest3</EndUserID>
+  <Result>0</Result>
+  <Time>20210825163306</Time>
+  <CustomMessageID>s:3-99-1-2021082514</CustomMessageID>
+  <JobID>104670466617</JobID>
+  <GroupID></GroupID>
+  <SequenceNumber>1</SequenceNumber>
+  <MessageType>1</MessageType>
+  <SendNumber></SendNumber>
+  <ReceiveNumber>nl+B9vvLc8I+FJEL9zB7Gw==</ReceiveNumber>
+  <CallbackNumber>7orTnosTiYsLCUrZvwDVBA==</CallbackNumber>
+  <TelcoInfo>1</TelcoInfo>
+  <Fee>14</Fee>
+  <SubmitTime>20210825163305</SubmitTime>
+  <StatusText></StatusText>
+</MAS>
+](len=660)
+[2021-08-25 16:33:06,974]{30948}[DEBUG] [SEND-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="res_report">
+  <Result>0</Result>
+  <JobID>104670466617</JobID>
+</MAS>
+](len=126)
+[2021-08-25 16:33:07,261]{30948}[DEBUG] [RECV-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="req_report">
+  <ServiceProviderID>ymstest3</ServiceProviderID>
+  <EndUserID>ymstest3</EndUserID>
+  <Result>0</Result>
+  <Time>20210825163306</Time>
+  <CustomMessageID>s:1-99-1-2021082514</CustomMessageID>
+  <JobID>104670466605</JobID>
+  <GroupID></GroupID>
+  <SequenceNumber>1</SequenceNumber>
+  <MessageType>1</MessageType>
+  <SendNumber></SendNumber>
+  <ReceiveNumber>yNXMZueGv7/5CFO0KsQofw==</ReceiveNumber>
+  <CallbackNumber>7orTnosTiYsLCUrZvwDVBA==</CallbackNumber>
+  <TelcoInfo>3</TelcoInfo>
+  <Fee>14</Fee>
+  <SubmitTime>20210825163305</SubmitTime>
+  <StatusText></StatusText>
+</MAS>
+](len=660)
+[2021-08-25 16:33:07,384]{30948}[DEBUG] [SEND-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="res_report">
+  <Result>0</Result>
+  <JobID>104670466605</JobID>
+</MAS>
+](len=126)
+[2021-08-25 16:33:15,346]{30948}[DEBUG] [SEND-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="req_send_message_2">
+  <MessageType>1</MessageType>
+  <MessageSubType>1</MessageSubType>
+  <Priority>2</Priority>
+  <MessageClass>1</MessageClass>
+  <StoreLevel>1</StoreLevel>
+  <CallbackNumber>7orTnosTiYsLCUrZvwDVBA==</CallbackNumber>
+  <ReserveType>1</ReserveType>
+  <ReserveTime>20210825144048</ReserveTime>
+  <CustomMessageID>s:5-99-1-2021082514</CustomMessageID>
+<Message>
+  <ReceiveNumber seqNo="1">nl+B9vvLc8I+FJEL9zB7Gw==</ReceiveNumber>
+  <Subject>?????.</Subject>
+  <Content>K0u0VAywWLa5SJJwfjgukg==</Content>
+</Message>
+</MAS>
+](len=605)
+[2021-08-25 16:33:15,398]{30948}[DEBUG] [RECV-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="res_send_message">
+  <Result>0</Result>
+  <Time>20210825163315</Time>
+  <CustomMessageID>s:5-99-1-2021082514</CustomMessageID>
+  <SequenceNumber>1</SequenceNumber>
+  <JobID>104670468122</JobID>
+  <GroupID></GroupID>
+</MAS>
+](len=282)
+[2021-08-25 16:33:15,401]{30948}[DEBUG] [RECV-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="res_send_message_all">
+  <Result>0</Result>
+  <Time>20210825163315</Time>
+  <CustomMessageID>s:5-99-1-2021082514</CustomMessageID>
+  <Count>1</Count>
+  <GroupID></GroupID>
+  <JobID seqNo="1">104670468122</JobID>
+  <SubmitTime>20210825163315</SubmitTime>
+</MAS>
+](len=321)
+[2021-08-25 16:33:16,003]{30948}[DEBUG] [RECV-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="req_report">
+  <ServiceProviderID>ymstest3</ServiceProviderID>
+  <EndUserID>ymstest3</EndUserID>
+  <Result>0</Result>
+  <Time>20210825163312</Time>
+  <CustomMessageID>s:5-99-1-2021082514</CustomMessageID>
+  <JobID>104670468122</JobID>
+  <GroupID></GroupID>
+  <SequenceNumber>1</SequenceNumber>
+  <MessageType>1</MessageType>
+  <SendNumber></SendNumber>
+  <ReceiveNumber>nl+B9vvLc8I+FJEL9zB7Gw==</ReceiveNumber>
+  <CallbackNumber>7orTnosTiYsLCUrZvwDVBA==</CallbackNumber>
+  <TelcoInfo>1</TelcoInfo>
+  <Fee>14</Fee>
+  <SubmitTime>20210825163315</SubmitTime>
+  <StatusText></StatusText>
+</MAS>
+](len=660)
+[2021-08-25 16:33:16,171]{30948}[DEBUG] [SEND-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="res_report">
+  <Result>0</Result>
+  <JobID>104670468122</JobID>
+</MAS>
+](len=126)
+[2021-08-25 16:33:35,269]{30948}[DEBUG] [SEND-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="req_ping">
+  <Result>0</Result>
+</MAS>
+](len=93)
+[2021-08-25 16:33:35,343]{30948}[DEBUG] [RECV-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="res_ping">
+  <Result>0</Result>
+</MAS>
+](len=93)
+[2021-08-25 16:33:41,359]{30948}[DEBUG] [RECV-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="req_unregist">
+  <Reason>18</Reason>
+  <ReconnectInterval>0</ReconnectInterval>
+</MAS>
+](len=142)
+[2021-08-25 16:34:24,432]{30948}[DEBUG] [SEND-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="req_auth">
+  <ServiceProviderID>ymstest3</ServiceProviderID>
+</MAS>
+](len=122)
+[2021-08-25 16:34:24,511]{30948}[DEBUG] [RECV-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="res_auth">
+  <Result>0</Result>
+  <Time>20210825163424</Time>
+</MAS>
+](len=124)
+[2021-08-25 16:34:24,526]{30948}[DEBUG] [SEND-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="req_regist">
+  <ServiceProviderID>ymstest3</ServiceProviderID>
+  <EndUserID>ymstest3</EndUserID>
+  <AuthTicket>u0Pay6ixYBQqq07SfOe7d5CRZ8kTDpDrC7qyXgGJRHBRUjBLFmNxyawnUyC6c1txDxI0cUB2FkF3Ry2ROBIVUy7QmIy+jET40yD0vVpufek=</AuthTicket>
+  <AuthKey>454</AuthKey>
+  <UserVersion>Agent</UserVersion>
+  <Version>3.1.0-N</Version>
+</MAS>
+](len=388)
+[2021-08-25 16:34:24,632]{30948}[DEBUG] [RECV-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="res_regist">
+  <Result>0</Result>
+  <SessionID>410170180</SessionID>
+  <SendLimitPerSecond msgType="1">100</SendLimitPerSecond>
+  <SendLimitPerSecond msgType="4">30</SendLimitPerSecond>
+  <ProductStatus msgType="1">Y</ProductStatus>
+  <ProductStatus msgType="2">N</ProductStatus>
+  <ProductStatus msgType="3">N</ProductStatus>
+  <ProductStatus msgType="4">Y</ProductStatus>
+  <SendLimitPerMonth msgType="1">500</SendLimitPerMonth>
+  <SendLimitPerMonth msgType="4">500</SendLimitPerMonth>
+</MAS>
+](len=558)
+[2021-08-25 16:34:35,270]{30948}[DEBUG] [SEND-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="req_ping">
+  <Result>0</Result>
+</MAS>
+](len=93)
+[2021-08-25 16:34:35,329]{30948}[DEBUG] [RECV-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="res_ping">
+  <Result>0</Result>
+</MAS>
+](len=93)
+[2021-08-25 16:34:38,497]{30948}[DEBUG] [RECV-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="req_unregist">
+  <Reason>18</Reason>
+  <ReconnectInterval>0</ReconnectInterval>
+</MAS>
+](len=142)
+[2021-08-25 16:35:12,890]{13596}[DEBUG] [SEND-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="req_auth">
+  <ServiceProviderID>ymstest3</ServiceProviderID>
+</MAS>
+](len=122)
+[2021-08-25 16:35:12,946]{13596}[DEBUG] [RECV-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="res_auth">
+  <Result>0</Result>
+  <Time>20210825163512</Time>
+</MAS>
+](len=124)
+[2021-08-25 16:35:12,961]{13596}[DEBUG] [SEND-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="req_regist">
+  <ServiceProviderID>ymstest3</ServiceProviderID>
+  <EndUserID>ymstest3</EndUserID>
+  <AuthTicket>SECwnzLuCRUo9Q65KbA3wd4KUyxDoYOxE07PlKqQ5q/g5dmuxpc49NTJikDL/SDyX7gWLB11EQuq2yI5gPT/bUElHksawoTosmSzdBX2lKA=</AuthTicket>
+  <AuthKey>781</AuthKey>
+  <UserVersion>Agent</UserVersion>
+  <Version>3.1.0-N</Version>
+</MAS>
+](len=388)
+[2021-08-25 16:35:13,067]{13596}[DEBUG] [RECV-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="res_regist">
+  <Result>0</Result>
+  <SessionID>410170337</SessionID>
+  <SendLimitPerSecond msgType="1">100</SendLimitPerSecond>
+  <SendLimitPerSecond msgType="4">30</SendLimitPerSecond>
+  <ProductStatus msgType="1">Y</ProductStatus>
+  <ProductStatus msgType="2">N</ProductStatus>
+  <ProductStatus msgType="3">N</ProductStatus>
+  <ProductStatus msgType="4">Y</ProductStatus>
+  <SendLimitPerMonth msgType="1">500</SendLimitPerMonth>
+  <SendLimitPerMonth msgType="4">500</SendLimitPerMonth>
+</MAS>
+](len=558)
+[2021-08-25 16:35:43,112]{13596}[DEBUG] [SEND-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="req_ping">
+  <Result>0</Result>
+</MAS>
+](len=93)
+[2021-08-25 16:35:43,171]{13596}[DEBUG] [RECV-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="res_ping">
+  <Result>0</Result>
+</MAS>
+](len=93)
+[2021-08-25 16:35:44,084]{13596}[DEBUG] [RECV-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="req_unregist">
+  <Reason>18</Reason>
+  <ReconnectInterval>0</ReconnectInterval>
+</MAS>
+](len=142)
+[2021-08-25 16:37:03,422]{27204}[DEBUG] [SEND-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="req_auth">
+  <ServiceProviderID>ymstest3</ServiceProviderID>
+</MAS>
+](len=122)
+[2021-08-25 16:37:03,499]{27204}[DEBUG] [RECV-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="res_auth">
+  <Result>0</Result>
+  <Time>20210825163703</Time>
+</MAS>
+](len=124)
+[2021-08-25 16:37:03,516]{27204}[DEBUG] [SEND-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="req_regist">
+  <ServiceProviderID>ymstest3</ServiceProviderID>
+  <EndUserID>ymstest3</EndUserID>
+  <AuthTicket>2Wt9uiMX3jI+mvHC4EjgOPkBrrB+C8+12JALVRsnQzzNVRFSuhhPAENDsrvNDC7Djtxx0vacgmy8QZF4MAWAAoOD6M5QvD9HdjXhklW0S5Y=</AuthTicket>
+  <AuthKey>1919</AuthKey>
+  <UserVersion>Agent</UserVersion>
+  <Version>3.1.0-N</Version>
+</MAS>
+](len=389)
+[2021-08-25 16:37:03,575]{27204}[DEBUG] [RECV-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="res_regist">
+  <Result>0</Result>
+  <SessionID>410170674</SessionID>
+  <SendLimitPerSecond msgType="1">100</SendLimitPerSecond>
+  <SendLimitPerSecond msgType="4">30</SendLimitPerSecond>
+  <ProductStatus msgType="1">Y</ProductStatus>
+  <ProductStatus msgType="2">N</ProductStatus>
+  <ProductStatus msgType="3">N</ProductStatus>
+  <ProductStatus msgType="4">Y</ProductStatus>
+  <SendLimitPerMonth msgType="1">500</SendLimitPerMonth>
+  <SendLimitPerMonth msgType="4">500</SendLimitPerMonth>
+</MAS>
+](len=558)
+[2021-08-25 16:37:15,708]{27204}[DEBUG] [SEND-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="req_send_message_2">
+  <MessageType>1</MessageType>
+  <MessageSubType>1</MessageSubType>
+  <Priority>2</Priority>
+  <MessageClass>1</MessageClass>
+  <StoreLevel>1</StoreLevel>
+  <CallbackNumber>7orTnosTiYsLCUrZvwDVBA==</CallbackNumber>
+  <ReserveType>1</ReserveType>
+  <ReserveTime>20210825144048</ReserveTime>
+  <CustomMessageID>s:6-99-1-2021082514</CustomMessageID>
+<Message>
+  <ReceiveNumber seqNo="1">nl+B9vvLc8I+FJEL9zB7Gw==</ReceiveNumber>
+  <Subject>안녕하세요.</Subject>
+  <Content>jklAy8eQuMOHR8TFbsujYA==</Content>
+</Message>
+</MAS>
+](len=615)
+[2021-08-25 16:37:15,750]{27204}[DEBUG] [RECV-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="res_send_message">
+  <Result>0</Result>
+  <Time>20210825163715</Time>
+  <CustomMessageID>s:6-99-1-2021082514</CustomMessageID>
+  <SequenceNumber>1</SequenceNumber>
+  <JobID>104670594459</JobID>
+  <GroupID></GroupID>
+</MAS>
+](len=282)
+[2021-08-25 16:37:15,751]{27204}[DEBUG] [RECV-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="res_send_message_all">
+  <Result>0</Result>
+  <Time>20210825163715</Time>
+  <CustomMessageID>s:6-99-1-2021082514</CustomMessageID>
+  <Count>1</Count>
+  <GroupID></GroupID>
+  <JobID seqNo="1">104670594459</JobID>
+  <SubmitTime>20210825163715</SubmitTime>
+</MAS>
+](len=321)
+[2021-08-25 16:37:16,782]{27204}[DEBUG] [RECV-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="req_report">
+  <ServiceProviderID>ymstest3</ServiceProviderID>
+  <EndUserID>ymstest3</EndUserID>
+  <Result>0</Result>
+  <Time>20210825163713</Time>
+  <CustomMessageID>s:6-99-1-2021082514</CustomMessageID>
+  <JobID>104670594459</JobID>
+  <GroupID></GroupID>
+  <SequenceNumber>1</SequenceNumber>
+  <MessageType>1</MessageType>
+  <SendNumber></SendNumber>
+  <ReceiveNumber>nl+B9vvLc8I+FJEL9zB7Gw==</ReceiveNumber>
+  <CallbackNumber>7orTnosTiYsLCUrZvwDVBA==</CallbackNumber>
+  <TelcoInfo>1</TelcoInfo>
+  <Fee>14</Fee>
+  <SubmitTime>20210825163715</SubmitTime>
+  <StatusText></StatusText>
+</MAS>
+](len=660)
+[2021-08-25 16:37:16,935]{27204}[DEBUG] [SEND-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="res_report">
+  <Result>0</Result>
+  <JobID>104670594459</JobID>
+</MAS>
+](len=126)
+[2021-08-25 16:37:33,628]{27204}[DEBUG] [SEND-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="req_ping">
+  <Result>0</Result>
+</MAS>
+](len=93)
+[2021-08-25 16:37:33,687]{27204}[DEBUG] [RECV-0] [
+<?xml version="1.0" encoding="UTF-8"?>
+<MAS method="res_ping">
+  <Result>0</Result>
+</MAS>
+](len=93)

@@ -87,3 +87,231 @@ java.io.FileNotFoundException: Cannot find Cert file : C:\Users\TOORU\STUDY\CLOU
 [2021-08-25 15:25:47,417]{}[INFO ] CfgMngr(64bf3bbf): ConfigFile read ok
 [2021-08-25 15:25:47,856]{}[INFO ] CfgMngr(6500df86): ConfigFile read ok
 [2021-08-25 15:25:53,591]{}[INFO ] CfgMngr(64bf3bbf): ConfigFile read ok
+[2021-08-25 16:23:22,234]{}[INFO ] CfgMngr(635eaaf1): ConfigFile read ok
+[2021-08-25 16:23:29,497]{}[INFO ] CfgMngr(635eaaf1): ConfigFile read ok
+[2021-08-25 16:23:38,664]{}[INFO ] CfgMngr(635eaaf1): ConfigFile read ok
+[2021-08-25 16:27:29,974]{7836}[INFO ] CfgMngr(635eaaf1): ConfigFile read ok
+[2021-08-25 16:28:14,505]{}[INFO ] CfgMngr(64bf3bbf): ConfigFile read ok
+[2021-08-25 16:30:06,712]{}[INFO ] CfgMngr(64bf3bbf): ConfigFile read ok
+[2021-08-25 16:31:03,529]{}[INFO ] CfgMngr(64bf3bbf): ConfigFile read ok
+[2021-08-25 16:32:43,490]{}[INFO ] CfgMngr(64bf3bbf): ConfigFile read ok
+[2021-08-25 16:32:52,995]{}[INFO ] CfgMngr(64bf3bbf): ConfigFile read ok
+[2021-08-25 16:32:53,437]{}[INFO ] CfgMngr(6500df86): ConfigFile read ok
+[2021-08-25 16:32:55,607]{29424}[DEBUG] AgentExe stopped.
+[2021-08-25 16:33:03,498]{26376}[INFO ] (Agent) using jvmEncoding: [UTF-8]
+[2021-08-25 16:33:03,501]{26376}[INFO ] (Agent) using timeZone: [Asia/Seoul]
+[2021-08-25 16:33:03,501]{26376}[INFO ] (Agent) using maxMemMb: [1024]
+[2021-08-25 16:33:03,926]{}[INFO ] CfgMngr(6500df86): ConfigFile read ok
+[2021-08-25 16:33:04,227]{30948}[INFO ] Agent INFO ->
+Agent Version: [3.1.0-N]
+Config Encrypt Func: [Y]
+Agent Local Port: [12999]
+Monitor Local Port: [12998]
+Send/Recv Buffer Size: [8192/8192]
+Java Max Mem: [1024m]
+TQ Factor: [400]
+Attach Worker Num: [10]
+No Dupl Msg Func: [N]
+Use Dual Mas: [N]
+User: [ymstest3][ymstest3]
+Send Func: [SMS=Y, VMS=Y, FMS=Y, MMS=Y]
+Recv Func: [SMS_MO=Y, FMS_MO=Y]
+No Send: [N]
+Agent Reserve Func: [Y]
+Ping Period: [30sec (Exceed Limit : 3 cnt)]
+Use Stat: [N]
+Convert Timeout: [30min]
+Use Debug Log: [Y]
+Use Message Log: [Y]
+Log Table Type: [F]
+OS Name: [Windows 10]
+JVM: [AdoptOpenJDK / 11.0.10+9 / 64]
+DB Type: [maria]
+DB Charset: [UTF-8|ISO8859_1]
+Max DB Conn: [10]
+Query Timeout: [30sec]
+Use Fetch TX: [Y]
+AttachSizeLimit: [1024KB]
+NoLimitSendDate: [N]
+OS Name: [Windows 10]
+OS Version: [10.0]
+OS Arch: [amd64]
+Java Version: [11.0.10]
+Java Version2: [11.0.10+9]
+Java Vendor: [AdoptOpenJDK]
+VM Name: [OpenJDK 64-Bit Server VM]
+VM Info: [mixed mode]
+Java Data Model: [64]
+Java Home: [C:\Program Files\AdoptOpenJDK\jdk-11.0.10.9-hotspot]
+Encoding: [UTF-8]
+Encoding2: [MS949]
+User Name: [TOORU]
+Language: [ko]
+Country: [KR]
+[2021-08-25 16:33:04,471]{30948}[INFO ] {agntDs}-DB Product Name=[MySQL], DB Product Version=[10.4.13-MariaDB], Driver Name=[MariaDB connector/J], Driver Version=[1.7.4]
+[2021-08-25 16:33:04,507]{30948}[INFO ] {agntDs}-DB test success.
+[2021-08-25 16:33:04,557]{30948}[INFO ] Agent Time=[2021-08-25 16:33:04]
+[2021-08-25 16:33:04,557]{30948}[INFO ] DB    Time=[2021-08-25 07:33:04]
+[2021-08-25 16:33:04,880]{30948}[INFO ] Server connecting...
+[2021-08-25 16:33:04,940]{30948}[INFO ] [0]Server connection info: [210.105.195.153:80]
+[2021-08-25 16:33:04,963]{30948}[INFO ] AsynchSocketThread(405cbc5f)[0]: Server connected.
+[2021-08-25 16:33:05,196]{30948}[INFO ] RegistResE(40972e86)[0].initSendLimitInfo: sendLimitPerSec={1=100, 2=0, 3=0, 4=30}, fetchSize={1=100, 2=0, 3=0, 4=30}, sendLimitPerMonth={1=500, 2=-1, 3=-1, 4=500}
+[2021-08-25 16:33:05,204]{30948}[INFO ] [0]Login success: spId=[ymstest3], euId=[ymstest3]
+[2021-08-25 16:33:05,219]{30948}[INFO ] Send count limit/sec: SMS=100, VMS=0, FMS=0, MMS=30
+[2021-08-25 16:33:05,219]{30948}[INFO ] Fetch period: 1sec
+[2021-08-25 16:33:05,219]{30948}[INFO ] Fetch Size: SMS=100, VMS=0, FMS=0, MMS=30
+[2021-08-25 16:33:05,220]{30948}[INFO ] Sending msg: SMS=[Y], VMS=[Y], FMS=[Y], MMS=[Y]
+[2021-08-25 16:33:05,220]{30948}[INFO ] Receiving msg: SMS_MO=[Y], FMS_MO=[Y]
+[2021-08-25 16:33:41,376]{30948}[INFO ] AsynchSocketThread(405cbc5f)[0]: Server disconnected.
+[2021-08-25 16:33:41,874]{30948}[INFO ] Logout by server, Agent reconnect...(Reason=18) {interval=43}
+[2021-08-25 16:34:24,390]{30948}[INFO ] Server connecting...
+[2021-08-25 16:34:24,419]{30948}[INFO ] [0]Server connection info: [210.105.195.153:80]
+[2021-08-25 16:34:24,430]{30948}[INFO ] AsynchSocketThread(67bec2e9)[0]: Server connected.
+[2021-08-25 16:34:24,632]{30948}[INFO ] RegistResE(429253b0)[0].initSendLimitInfo: sendLimitPerSec={1=100, 2=0, 3=0, 4=30}, fetchSize={1=100, 2=0, 3=0, 4=30}, sendLimitPerMonth={1=500, 2=-1, 3=-1, 4=500}
+[2021-08-25 16:34:24,633]{30948}[INFO ] [0]Login success: spId=[ymstest3], euId=[ymstest3]
+[2021-08-25 16:34:38,514]{30948}[INFO ] AsynchSocketThread(67bec2e9)[0]: Server disconnected.
+[2021-08-25 16:34:39,015]{30948}[INFO ] Logout by server, Agent reconnect...(Reason=18) {interval=31}
+[2021-08-25 16:34:50,163]{}[INFO ] CfgMngr(64bf3bbf): ConfigFile read ok
+[2021-08-25 16:35:01,017]{}[INFO ] CfgMngr(64bf3bbf): ConfigFile read ok
+[2021-08-25 16:35:01,427]{}[INFO ] CfgMngr(6500df86): ConfigFile read ok
+[2021-08-25 16:35:02,279]{30948}[DEBUG] AgentExe stopped.
+[2021-08-25 16:35:11,478]{16312}[INFO ] (Agent) using jvmEncoding: [UTF-8]
+[2021-08-25 16:35:11,480]{16312}[INFO ] (Agent) using timeZone: [Asia/Seoul]
+[2021-08-25 16:35:11,480]{16312}[INFO ] (Agent) using maxMemMb: [1024]
+[2021-08-25 16:35:11,874]{}[INFO ] CfgMngr(6500df86): ConfigFile read ok
+[2021-08-25 16:35:12,199]{13596}[INFO ] Agent INFO ->
+Agent Version: [3.1.0-N]
+Config Encrypt Func: [Y]
+Agent Local Port: [12999]
+Monitor Local Port: [12998]
+Send/Recv Buffer Size: [8192/8192]
+Java Max Mem: [1024m]
+TQ Factor: [400]
+Attach Worker Num: [10]
+No Dupl Msg Func: [N]
+Use Dual Mas: [N]
+User: [ymstest3][ymstest3]
+Send Func: [SMS=Y, VMS=Y, FMS=Y, MMS=Y]
+Recv Func: [SMS_MO=Y, FMS_MO=Y]
+No Send: [N]
+Agent Reserve Func: [Y]
+Ping Period: [30sec (Exceed Limit : 3 cnt)]
+Use Stat: [N]
+Convert Timeout: [30min]
+Use Debug Log: [Y]
+Use Message Log: [Y]
+Log Table Type: [F]
+OS Name: [Windows 10]
+JVM: [AdoptOpenJDK / 11.0.10+9 / 64]
+DB Type: [maria]
+DB Charset: [UTF-8|UTF-8]
+Max DB Conn: [10]
+Query Timeout: [30sec]
+Use Fetch TX: [Y]
+AttachSizeLimit: [1024KB]
+NoLimitSendDate: [N]
+OS Name: [Windows 10]
+OS Version: [10.0]
+OS Arch: [amd64]
+Java Version: [11.0.10]
+Java Version2: [11.0.10+9]
+Java Vendor: [AdoptOpenJDK]
+VM Name: [OpenJDK 64-Bit Server VM]
+VM Info: [mixed mode]
+Java Data Model: [64]
+Java Home: [C:\Program Files\AdoptOpenJDK\jdk-11.0.10.9-hotspot]
+Encoding: [UTF-8]
+Encoding2: [MS949]
+User Name: [TOORU]
+Language: [ko]
+Country: [KR]
+[2021-08-25 16:35:12,403]{13596}[INFO ] {agntDs}-DB Product Name=[MySQL], DB Product Version=[10.4.13-MariaDB], Driver Name=[MariaDB connector/J], Driver Version=[1.7.4]
+[2021-08-25 16:35:12,420]{13596}[INFO ] {agntDs}-DB test success.
+[2021-08-25 16:35:12,442]{13596}[INFO ] Agent Time=[2021-08-25 16:35:12]
+[2021-08-25 16:35:12,442]{13596}[INFO ] DB    Time=[2021-08-25 07:35:11]
+[2021-08-25 16:35:12,721]{13596}[INFO ] Server connecting...
+[2021-08-25 16:35:12,844]{13596}[INFO ] [0]Server connection info: [210.105.195.151:80]
+[2021-08-25 16:35:12,880]{13596}[INFO ] AsynchSocketThread(7d68b4b9)[0]: Server connected.
+[2021-08-25 16:35:13,069]{13596}[INFO ] RegistResE(14005eb0)[0].initSendLimitInfo: sendLimitPerSec={1=100, 2=0, 3=0, 4=30}, fetchSize={1=100, 2=0, 3=0, 4=30}, sendLimitPerMonth={1=500, 2=-1, 3=-1, 4=500}
+[2021-08-25 16:35:13,069]{13596}[INFO ] [0]Login success: spId=[ymstest3], euId=[ymstest3]
+[2021-08-25 16:35:13,075]{13596}[INFO ] Send count limit/sec: SMS=100, VMS=0, FMS=0, MMS=30
+[2021-08-25 16:35:13,075]{13596}[INFO ] Fetch period: 1sec
+[2021-08-25 16:35:13,075]{13596}[INFO ] Fetch Size: SMS=100, VMS=0, FMS=0, MMS=30
+[2021-08-25 16:35:13,076]{13596}[INFO ] Sending msg: SMS=[Y], VMS=[Y], FMS=[Y], MMS=[Y]
+[2021-08-25 16:35:13,076]{13596}[INFO ] Receiving msg: SMS_MO=[Y], FMS_MO=[Y]
+[2021-08-25 16:35:44,101]{13596}[INFO ] AsynchSocketThread(7d68b4b9)[0]: Server disconnected.
+[2021-08-25 16:35:44,600]{13596}[INFO ] Logout by server, Agent reconnect...(Reason=18) {interval=42}
+[2021-08-25 16:35:51,559]{}[INFO ] CfgMngr(64bf3bbf): ConfigFile read ok
+[2021-08-25 16:35:57,815]{}[INFO ] CfgMngr(64bf3bbf): ConfigFile read ok
+[2021-08-25 16:36:09,926]{13596}[DEBUG] AgentExe stopped.
+[2021-08-25 16:37:01,995]{}[INFO ] CfgMngr(64bf3bbf): ConfigFile read ok
+[2021-08-25 16:37:02,006]{29528}[INFO ] (Agent) using jvmEncoding: [UTF-8]
+[2021-08-25 16:37:02,006]{29528}[INFO ] (Agent) using timeZone: [Asia/Seoul]
+[2021-08-25 16:37:02,006]{29528}[INFO ] (Agent) using maxMemMb: [1024]
+[2021-08-25 16:37:02,406]{}[INFO ] CfgMngr(6500df86): ConfigFile read ok
+[2021-08-25 16:37:02,721]{27204}[INFO ] Agent INFO ->
+Agent Version: [3.1.0-N]
+Config Encrypt Func: [Y]
+Agent Local Port: [12999]
+Monitor Local Port: [12998]
+Send/Recv Buffer Size: [8192/8192]
+Java Max Mem: [1024m]
+TQ Factor: [400]
+Attach Worker Num: [10]
+No Dupl Msg Func: [N]
+Use Dual Mas: [N]
+User: [ymstest3][ymstest3]
+Send Func: [SMS=Y, VMS=Y, FMS=Y, MMS=Y]
+Recv Func: [SMS_MO=Y, FMS_MO=Y]
+No Send: [N]
+Agent Reserve Func: [Y]
+Ping Period: [30sec (Exceed Limit : 3 cnt)]
+Use Stat: [N]
+Convert Timeout: [30min]
+Use Debug Log: [Y]
+Use Message Log: [Y]
+Log Table Type: [F]
+OS Name: [Windows 10]
+JVM: [AdoptOpenJDK / 11.0.10+9 / 64]
+DB Type: [maria]
+DB Charset: [UTF-8|UTF-8]
+Max DB Conn: [10]
+Query Timeout: [30sec]
+Use Fetch TX: [Y]
+AttachSizeLimit: [1024KB]
+NoLimitSendDate: [N]
+OS Name: [Windows 10]
+OS Version: [10.0]
+OS Arch: [amd64]
+Java Version: [11.0.10]
+Java Version2: [11.0.10+9]
+Java Vendor: [AdoptOpenJDK]
+VM Name: [OpenJDK 64-Bit Server VM]
+VM Info: [mixed mode]
+Java Data Model: [64]
+Java Home: [C:\Program Files\AdoptOpenJDK\jdk-11.0.10.9-hotspot]
+Encoding: [UTF-8]
+Encoding2: [MS949]
+User Name: [TOORU]
+Language: [ko]
+Country: [KR]
+[2021-08-25 16:37:02,941]{27204}[INFO ] {agntDs}-DB Product Name=[MySQL], DB Product Version=[10.4.13-MariaDB], Driver Name=[MariaDB connector/J], Driver Version=[1.7.4]
+[2021-08-25 16:37:02,973]{27204}[INFO ] {agntDs}-DB test success.
+[2021-08-25 16:37:03,020]{27204}[INFO ] Agent Time=[2021-08-25 16:37:03]
+[2021-08-25 16:37:03,021]{27204}[INFO ] DB    Time=[2021-08-25 07:37:02]
+[2021-08-25 16:37:03,324]{27204}[INFO ] Server connecting...
+[2021-08-25 16:37:03,389]{27204}[INFO ] [0]Server connection info: [210.105.195.153:80]
+[2021-08-25 16:37:03,413]{27204}[INFO ] AsynchSocketThread(68123a62)[0]: Server connected.
+[2021-08-25 16:37:03,579]{27204}[INFO ] RegistResE(3d337608)[0].initSendLimitInfo: sendLimitPerSec={1=100, 2=0, 3=0, 4=30}, fetchSize={1=100, 2=0, 3=0, 4=30}, sendLimitPerMonth={1=500, 2=-1, 3=-1, 4=500}
+[2021-08-25 16:37:03,580]{27204}[INFO ] [0]Login success: spId=[ymstest3], euId=[ymstest3]
+[2021-08-25 16:37:03,589]{27204}[INFO ] Send count limit/sec: SMS=100, VMS=0, FMS=0, MMS=30
+[2021-08-25 16:37:03,589]{27204}[INFO ] Fetch period: 1sec
+[2021-08-25 16:37:03,589]{27204}[INFO ] Fetch Size: SMS=100, VMS=0, FMS=0, MMS=30
+[2021-08-25 16:37:03,589]{27204}[INFO ] Sending msg: SMS=[Y], VMS=[Y], FMS=[Y], MMS=[Y]
+[2021-08-25 16:37:03,589]{27204}[INFO ] Receiving msg: SMS_MO=[Y], FMS_MO=[Y]
+[2021-08-25 16:37:04,581]{}[INFO ] CfgMngr(6500df86): ConfigFile read ok
+[2021-08-25 16:37:37,077]{}[INFO ] CfgMngr(64bf3bbf): ConfigFile read ok
+[2021-08-25 16:37:39,177]{27204}[INFO ] AsynchSocketThread(68123a62)[0]: Server disconnected.
+[2021-08-25 16:37:45,621]{}[INFO ] CfgMngr(64bf3bbf): ConfigFile read ok
+[2021-08-25 16:37:49,690]{27204}[DEBUG] AgentExe stopped.
+[2021-08-25 16:37:51,730]{}[INFO ] CfgMngr(64bf3bbf): ConfigFile read ok

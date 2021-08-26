@@ -87,11 +87,11 @@
   </category>
   <category name="DB">
     <property name="01.DB_TYPE" value="maria"/>
-    <property name="02.DB_SERVER" value="database-1.ceq1ukufbcls.ap-northeast-2.rds.amazonaws.com"/>
+    <property name="02.DB_SERVER" value="127.0.0.1"/>
     <property name="03.DB_PORT" value="3306"/>
     <property name="04.DB_NAME" value="smstest"/>
     <property name="05.DB_USER_ID" value="root"/>
-    <property name="06.DB_USER_PW" value="Z9Pfd6iSCT6UNqCMVofOGQ=="/>
+    <property name="06.DB_USER_PW" value="9VYujbKm1rw+JUwhrwieXA=="/>
     <property name="07.DB_CHARSET" value="UTF-8|UTF-8"/>
     <property name="08.DB_MAX_CONN" value="10"/>
     <property name="09.QUERY_TIMEOUT_SEC" value="30"/>

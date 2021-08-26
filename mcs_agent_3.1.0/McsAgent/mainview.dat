@@ -6,3 +6,56 @@
 [2021-08-25 15:24:03]  [0]Server connection info: [210.105.195.152:80]
 [2021-08-25 15:24:03]  [0]Server Connected.
 [2021-08-25 15:24:06]  [0]Server Disconnected.
+[2021-08-25 16:33:03]  Agent Starting...
+[2021-08-25 16:33:04]  Agent Version=[3.1.0-N]
+[2021-08-25 16:33:04]  DB Testing...
+[2021-08-25 16:33:04]  DB Test OK
+[2021-08-25 16:33:04]  Server connecting...
+[2021-08-25 16:33:04]  [0]Server connection info: [210.105.195.153:80]
+[2021-08-25 16:33:04]  [0]Server Connected.
+[2021-08-25 16:33:05]  [0]Login success: spId=[ymstest3], euId=[ymstest3]
+[2021-08-25 16:33:05]  Send count limit/sec: SMS=100, VMS=0, FMS=0, MMS=30
+[2021-08-25 16:33:05]  Fetch period: 1sec
+[2021-08-25 16:33:05]  Fetch Size: SMS=100, VMS=0, FMS=0, MMS=30
+[2021-08-25 16:33:05]  Sending msg: SMS=[Y], VMS=[Y], FMS=[Y], MMS=[Y]
+[2021-08-25 16:33:05]  Receiving msg: SMS_MO=[Y], FMS_MO=[Y]
+[2021-08-25 16:33:05]  Ping period = 30secs (Expiration limits : 3times)
+[2021-08-25 16:33:05]  Agent Started.
+[2021-08-25 16:33:41]  [0]Logout. (Result=18)
+[2021-08-25 16:34:24]  Server connecting...
+[2021-08-25 16:34:24]  [0]Server connection info: [210.105.195.153:80]
+[2021-08-25 16:34:24]  [0]Server Connected.
+[2021-08-25 16:34:24]  [0]Login success: spId=[ymstest3], euId=[ymstest3]
+[2021-08-25 16:34:38]  [0]Logout. (Result=18)
+[2021-08-25 16:35:11]  Agent Starting...
+[2021-08-25 16:35:12]  Agent Version=[3.1.0-N]
+[2021-08-25 16:35:12]  DB Testing...
+[2021-08-25 16:35:12]  DB Test OK
+[2021-08-25 16:35:12]  Server connecting...
+[2021-08-25 16:35:12]  [0]Server connection info: [210.105.195.151:80]
+[2021-08-25 16:35:12]  [0]Server Connected.
+[2021-08-25 16:35:13]  [0]Login success: spId=[ymstest3], euId=[ymstest3]
+[2021-08-25 16:35:13]  Send count limit/sec: SMS=100, VMS=0, FMS=0, MMS=30
+[2021-08-25 16:35:13]  Fetch period: 1sec
+[2021-08-25 16:35:13]  Fetch Size: SMS=100, VMS=0, FMS=0, MMS=30
+[2021-08-25 16:35:13]  Sending msg: SMS=[Y], VMS=[Y], FMS=[Y], MMS=[Y]
+[2021-08-25 16:35:13]  Receiving msg: SMS_MO=[Y], FMS_MO=[Y]
+[2021-08-25 16:35:13]  Ping period = 30secs (Expiration limits : 3times)
+[2021-08-25 16:35:13]  Agent Started.
+[2021-08-25 16:35:44]  [0]Logout. (Result=18)
+[2021-08-25 16:37:02]  Agent Starting...
+[2021-08-25 16:37:02]  Agent Version=[3.1.0-N]
+[2021-08-25 16:37:02]  DB Testing...
+[2021-08-25 16:37:02]  DB Test OK
+[2021-08-25 16:37:03]  Server connecting...
+[2021-08-25 16:37:03]  [0]Server connection info: [210.105.195.153:80]
+[2021-08-25 16:37:03]  [0]Server Connected.
+[2021-08-25 16:37:03]  [0]Login success: spId=[ymstest3], euId=[ymstest3]
+[2021-08-25 16:37:03]  Send count limit/sec: SMS=100, VMS=0, FMS=0, MMS=30
+[2021-08-25 16:37:03]  Fetch period: 1sec
+[2021-08-25 16:37:03]  Fetch Size: SMS=100, VMS=0, FMS=0, MMS=30
+[2021-08-25 16:37:03]  Sending msg: SMS=[Y], VMS=[Y], FMS=[Y], MMS=[Y]
+[2021-08-25 16:37:03]  Receiving msg: SMS_MO=[Y], FMS_MO=[Y]
+[2021-08-25 16:37:03]  Ping period = 30secs (Expiration limits : 3times)
+[2021-08-25 16:37:03]  Agent Started.
+[2021-08-25 16:37:39]  [0]Server Disconnected.

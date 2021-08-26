@@ -2,6 +2,30 @@
 <AgentInfo>
   <AgentStatus>6</AgentStatus>
   <DbStatus>1</DbStatus>
-  <LoginTime></LoginTime>
+  <LoginTime>20210825163703</LoginTime>
+  <SendInfo>
+    <Type>SMS</Type>
+    <SendLimitPerSecond>100</SendLimitPerSecond>
+    <SendLimitPerMonth>500</SendLimitPerMonth>
+    <Sendable>Y</Sendable>
+  </SendInfo>
+  <SendInfo>
+    <Type>VMS</Type>
+    <SendLimitPerSecond>0</SendLimitPerSecond>
+    <SendLimitPerMonth>-1</SendLimitPerMonth>
+    <Sendable>Y</Sendable>
+  </SendInfo>
+  <SendInfo>
+    <Type>FMS</Type>
+    <SendLimitPerSecond>0</SendLimitPerSecond>
+    <SendLimitPerMonth>-1</SendLimitPerMonth>
+    <Sendable>Y</Sendable>
+  </SendInfo>
+  <SendInfo>
+    <Type>MMS</Type>
+    <SendLimitPerSecond>30</SendLimitPerSecond>
+    <SendLimitPerMonth>500</SendLimitPerMonth>
+    <Sendable>Y</Sendable>
+  </SendInfo>
 </AgentInfo>
 
